@@ -10,7 +10,7 @@ export default function Write() {
   const [file1, setFiles1] = useState([]);
   const [file2, setFiles2] = useState([]);
   const { user } = useContext(Context);
-  //const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
+  const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -26,7 +26,7 @@ export default function Write() {
       data.append("file", file0);
       newPost.photo0 = filename;
       try {
-        await axios.post("/upload", data);
+        await axiosInstance.post("/upload", data);
       } catch (err) { }
     }
     if (file1) {
@@ -36,7 +36,7 @@ export default function Write() {
       data.append("file", file1);
       newPost.photo1 = filename;
       try {
-        await axios.post("/upload", data);
+        await axiosInstance.post("/upload", data);
       } catch (err) { }
     }
     if (file2) {
@@ -46,11 +46,11 @@ export default function Write() {
       data.append("file", file2);
       newPost.photo2 = filename;
       try {
-        await axios.post("/upload", data);
+        await axiosInstance.post("/upload", data);
       } catch (err) { }
     }
     try {
-      const res = await axios.post("/posts", newPost);
+      const res = await axiosInstance.post("/posts", newPost);
       window.location.replace("/post/" + res.data._id);
     } catch (err) { }
   };

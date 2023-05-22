@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 import "./news.css";
 
 export default function News() {
-    const PF = "http://localhost:5000/images/";
+    const PF = "http://45.80.181.65:5000/images/";
     const [posts, setPosts] = useState([]);
     const { search } = useLocation();
+    const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const res = await axios.get("/posts" + search);
+            const res = await axiosInstance.get("/posts" + search);
             setPosts(res.data);
         };
         fetchPosts();

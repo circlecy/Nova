@@ -9,16 +9,16 @@ export default function Single() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState({});
-  const PF = "http://localhost:5000/images/";
+  const PF = "http://45.80.181.65:5000/images/";
   const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [updateMode, setUpdateMode] = useState(false);
-  //const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
+  const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
 
   useEffect(() => {
     const getPost = async () => {
-      const res = await axios.get("/posts/" + path);
+      const res = await axiosInstance.get("/posts/" + path);
       setPost(res.data);
       setTitle(res.data.title);
       setDesc(res.data.desc);
@@ -28,7 +28,7 @@ export default function Single() {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`/posts/${post._id}`, {
+      await axiosInstance.delete(`/posts/${post._id}`, {
         data: { username: user.username },
       });
       window.location.replace("/");
@@ -37,7 +37,7 @@ export default function Single() {
 
   const handleUpdate = async () => {
     try {
-      await axios.put(`/posts/${post._id}`, {
+      await axiosInstance.put(`/posts/${post._id}`, {
         username: user.username,
         title,
         desc,
