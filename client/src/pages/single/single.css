@@ -1,0 +1,258 @@
+.single{
+    display: flex;
+}
+
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+}
+
+.singlePostTitleInput {
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+    outline: none;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+    color: teal;
+}
+
+.singlePostIcon:last-child {
+    color: tomato;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: "Varela Round", sans-serif;
+    color: #b39656;
+}
+
+.singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singlePostDescInput {
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+    width:100%;
+    height:300px;
+}
+
+.singlePostDescInput:focus {
+    outline: none;
+}
+
+.singlePostButton {
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+/* blog galler*/
+
+.singlePost ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.singlePost ul li {
+    margin: 0 1.75rem 0 0;
+}
+
+.singlePost a {
+    color: #888;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.singlePost a:hover {
+    color: #333;
+}
+
+.singlePost a.active {
+    color: #333;
+}
+
+.singlePost h1,
+.singlePost h2,
+.singlePost h3,
+.singlePost h4 {
+    color: #333;
+    font-weight: normal;
+    margin: 1.75rem 0 1rem 0;
+}
+
+.singlePost h1 {
+    font-size: 2.5rem;
+}
+
+.singlePost h2 {
+    font-size: 2.125rem;
+    margin: 0;
+}
+
+.singlePost h3 {
+    font-size: 2rem;
+}
+
+.singlePost h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.singlePost section {
+    display: block;
+}
+
+.singlePost img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.singlePost .description {
+    border-top: 0.0625rem solid #e3dddd;
+    margin: 2rem 0;
+    padding: 1rem 0 0 0;
+}
+
+.singlePost .container {
+    margin: 15px auto;
+    padding: 0 1rem;
+    max-width: 75rem;
+    width: 100%;
+}
+
+.singlePost .grid>[class*="column-"] {
+    padding: 1rem;
+}
+
+.singlePost .grid.product {
+    border-bottom: 0.0625rem solid #e3dddd;
+    padding: 0 0 1.5rem 0;
+}
+
+.singlePost .product-image {
+    display: none;
+}
+
+.singlePost .image-list li {
+    margin: 0;
+}
+
+@media (min-width: 300px) {
+
+    .singlePost .product-image img,
+    .singlePost .image-list img {
+        width: 100%;
+    }
+
+    .singlePost .product-image {
+        display: block;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .singlePost .product-image img {
+        height: 52vh;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .singlePost .product-image img.active {
+        display: block;
+        margin: 0 0 0.75rem 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .singlePost .image-list {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .singlePost .image-list li {
+        margin: 0 0.75rem 0 0;
+        flex-basis: 100%;
+    }
+
+    .singlePost .image-list li:nth-child(3) {
+        margin: 0;
+    }
+
+    .singlePost .image-list img {
+        height: 10rem;
+        width: 100%;
+        transition: opacity 0.3s ease;
+        cursor: pointer;
+    }
+
+    .singlePost .image-list img:hover {
+        opacity: 0.7;
+    }
+}
+
+@keyframes fadeImg {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

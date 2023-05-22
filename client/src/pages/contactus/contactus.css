@@ -1,0 +1,103 @@
+.contactus .page-title {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 175px 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #181818;
+    background-image: url(https://images.pexels.com/photos/15007786/pexels-photo-15007786.jpeg);
+    filter: brightness(1.15);
+}
+
+.contactus .page-title.bg-dark-overlay:before {
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.contactus .page-title__holder {
+    max-width: 878px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.contactus .page-title__title {
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #1C3D88;
+}
+
+.contactus .page-title__subtitle {
+    font-size: 18px;
+    color: #1C3D88;
+    margin-bottom: 0;
+}
+
+.contactus .page-title--tall {
+    padding: 300px 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .contactus .page-title {
+        padding: 120px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .contactus .page-title {
+        padding: 60px 0;
+    }
+}
+
+.contactus .container{
+    margin-top: 15px;
+    margin-bottom:30px;
+}
+
+.contactus .page-in {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    min-height: 100px;
+    line-height: 100px;
+}
+
+.contactus .promo-block {
+    display: table;
+    margin: auto;
+}
+
+.contactus .promo-text {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 300;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    font-family: Roboto Slab, sans-serif;
+}
+
+.contactus .center-line {
+    width: 5px;
+    margin: auto;
+    height: 1px;
+    background: #F44336;
+    margin-top: 10px;
+    position: relative;
+    width: 50px;
+}
+
+.contactus .promo-paragraph {
+    padding: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contactus .marg50 {
+    margin-top:15px;
+}

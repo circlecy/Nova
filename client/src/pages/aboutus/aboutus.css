@@ -1,0 +1,214 @@
+.aboutus .page-title {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 175px 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #181818;
+    background-image: url(https://images.pexels.com/photos/15007786/pexels-photo-15007786.jpeg);
+    filter: brightness(1.15);
+}
+
+.aboutus .page-title.bg-dark-overlay:before {
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.aboutus .page-title__holder {
+    max-width: 878px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.aboutus .page-title__title {
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #1C3D88;
+}
+
+.aboutus .page-title__subtitle {
+    font-size: 18px;
+    color: #1C3D88;
+    margin-bottom: 0;
+}
+
+.aboutus .page-title--tall {
+    padding: 300px 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .aboutus .page-title {
+        padding: 120px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .aboutus .page-title {
+        padding: 60px 0;
+    }
+}
+
+.aboutus .contentTitle {
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+
+.hi-icon {
+    font-size: 44px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #F44336;
+    margin: auto;
+    display: table;
+    margin-bottom: 5px;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    border-radius: 50%;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.hi-icon svg {
+    fill: #F44336;
+    margin-bottom: -10px;
+}
+
+.hi-icon-effect:hover svg {
+    fill: #fff;
+}
+
+.hi-icon-effect:hover .hi-icon {
+    color: #fff;
+    background: #F2AC0D;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.service-name {
+    text-align: center;
+    font-size: 21px;
+    font-family: Roboto Slab, sans-serif;
+}
+
+.service-name:after {
+    content: "";
+    width: 50px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.service-text {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.aboutus ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.aboutus ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+.aboutus ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.aboutus ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+@media (min-width: 768px) {
+    .aboutus .offset-md-3 {
+        margin-left: 0%;
+    }
+}
+
+.aboutus ul.timeline .award-name {
+    color: #1C3D88;
+}
+
+.aboutus .photoGroup .award1 {
+    border: 5px solid;
+    border-image: linear-gradient(45deg, #BFBFBF, #D9D9D9) 1;
+    width: 60%;
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+}
+
+.aboutus .photoGroup .award2 {
+    border: 5px solid;
+    border-image: linear-gradient(45deg, #D9D9D9, #D9D9D9) 1;
+    width: 60%;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+
+.aboutus .photoGroup .award3 {
+    border: 5px solid;
+    border-image: linear-gradient(45deg, #BFBFBF, #D9D9D9) 1;
+    width: 55%;
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 20rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutus .photoGroup .award2 {
+        width: 45%;
+        left: 45%;
+        top: 15%;
+    }
+
+    .aboutus .photoGroup .award3 {
+        width: 55%;
+        margin-left: 2vw;
+        margin-top: 50vw;
+    }
+}

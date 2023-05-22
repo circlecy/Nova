@@ -1,0 +1,109 @@
+.write {
+  margin-top: 3vw;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeForm .writeFormGroup {
+  display: flex;
+}
+
+/*upload image*/
+.writeForm .image0,
+.writeForm .image1,
+.writeForm .image2 {
+  position: relative;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.writeForm .wrapper {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px dashed #c2cdda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+
+.writeForm .wrapper label {
+  margin-bottom: 0;
+}
+
+.writeForm .wrapper .text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #5B5B7B;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  padding-top: 65px;
+}
+
+.writeForm .wrapper .image {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.writeForm .wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.writeForm .file-name {
+  height: 30px;
+}
+
+@media (max-width: 700px) {
+  .writeForm .writeFormGroup {
+    display: grid;
+  }
+}
+
+/*Text Input*/
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.writeInput:focus {
+  outline: none;
+}
+
+.writeText {
+  font-size: 20px;
+  height: 70vh;
+}
+
+.writeSubmit {
+  position: relative;
+  color: white;
+  background-color: teal;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 1em;
+}
