@@ -5,6 +5,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerImg">
+        <div><img src={require('../../assets/img/Nova-Banner.jpg')} alt="" className="d-teambanner" /></div>
       </div>
       <div className="headerTitles">
         <div className="headerBrand"><img src={logoimg} alt="" className="logoImg" /></div>

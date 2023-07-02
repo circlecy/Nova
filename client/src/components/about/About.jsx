@@ -3,6 +3,7 @@ import "./about.css";
 export default function About() {
     return (
         <div className="about">
+            <div><img src={require('../../assets/img/Nova-Banner.jpg')} alt="" className="m-teambanner"/></div>
             <div className="container">
                 <div className="aboutTitle">
                     團隊年輕有活力 90後團隊打造行業新勢力

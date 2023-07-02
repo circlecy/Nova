@@ -146,3 +146,9 @@
         margin-top: 22px;
     }
 }
+
+@media (max-height: 500px) {
+    .navbar .nav-elements {
+        height: 500px;
+    }
+}

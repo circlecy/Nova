@@ -1,5 +1,5 @@
-.about{
-    margin-bottom:80px;
+.about {
+    margin-bottom: 80px;
     margin-top: -20px;
 }
 
@@ -9,6 +9,13 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.about .m-teambanner {
+    position: relative;
+    margin-bottom: 80px;
+    width: 100%;
+    display: none;
 }
 
 @media (max-width: 992px) {
@@ -31,6 +38,7 @@
     text-align: center !important;
     margin-top: -3.5rem !important;
 }
+
 .about .aboutSubtitle {
     position: relative;
     font-size: 20px;
@@ -50,6 +58,7 @@
     margin-bottom: 1.5rem !important;
     margin-top: 3.5rem !important;
 }
+
 .about .aboutSubtitle2 {
     position: relative;
     font-size: 20px;
@@ -134,6 +143,18 @@
     z-index: -1;
 }
 
-.about .content{
+.about .content {
     margin-top: 6rem;
+}
+
+@media (max-width: 800px) {
+    .about .m-teambanner {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .about .m-teambanner {
+        display: block;
+    }
 }
