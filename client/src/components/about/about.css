@@ -29,10 +29,36 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center !important;
-    margin-bottom: 1.5rem !important;
     margin-top: -3.5rem !important;
 }
+.about .aboutSubtitle {
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    margin-top: -1rem !important;
+}
 
+.about .aboutTitle2 {
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 3.5rem !important;
+}
+.about .aboutSubtitle2 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    margin-top: -1rem !important;
+}
 
 .about .title-box {
     position: relative;
@@ -52,21 +78,32 @@
     letter-spacing: 0.40em;
     line-height: 1em;
     margin-bottom: var(--margin-bottom-10);
+    text-align: center !important;
+}
+
+.about .title-box .subtitle2 {
+    position: relative;
+    font-weight: 700;
+    color: var(--main-color);
+    font-size: var(--font-12);
+    letter-spacing: 0.40em;
+    line-height: 1em;
+    margin-bottom: var(--margin-bottom-10);
     display: flex;
 }
 
 .about .title-box .subtitle img {
-    width: 13%;
+    width: 9%;
 }
 
-.about .title-box .subtitle img {
+.about .title-box .subtitle2 img {
     width: 13%;
 }
 
 .about .title-box span {
     padding: 10px 0;
     color: #F2AC0D;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.20em;
 }
@@ -89,4 +126,14 @@
 
 .about .title-box {
     margin-bottom: var(--margin-bottom-40);
+}
+
+.about .awardImg1 {
+    width: 100%;
+    filter: brightness(1.15);
+    z-index: -1;
+}
+
+.about .content{
+    margin-top: 6rem;
 }

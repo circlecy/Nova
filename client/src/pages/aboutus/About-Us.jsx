@@ -7,8 +7,8 @@ export default function AboutUs() {
       <section className="page-title bg-dark-overlay text-center">
         <div className="container">
           <div className="page-title__holder">
-            <h1 className="page-title__title">About Us</h1>
-            <p className="page-title__subtitle">Our Experience and Awards</p>
+            <h1 className="page-title__title">關於我們</h1>
+            <p className="page-title__subtitle"></p>
           </div>
         </div>
       </section>
@@ -16,7 +16,7 @@ export default function AboutUs() {
       <div className="container marg75">
         <div className="contentTitle">
           <span>NOVA </span><br />
-          <span>Core Value </span><br />
+          <span>Core Value - 核心價值</span><br />
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ms-12">
@@ -63,7 +63,61 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-
+      <div className="container">
+        <div className="contentTitle">
+          <br /><span>團隊年輕有活力 90後團隊打造行業新勢力</span><br />
+        </div>
+        <div className="row">
+          <div className="col-xs-12 col-md-12">
+            <div className="title-box">
+              <div className="subtitle">
+                <img alt="" src={require('../../assets/img/title1.svg').default} />
+                <span>Our Story</span>
+                <img alt="" src={require('../../assets/img/title2.svg').default} />
+              </div>
+              <div className="text">年輕人缺乏經驗和渠道，在發展個人事業時往往需要投放更多精神與時間才能接近夢想。作為過來人，香港永明金融有限公司（下稱Sun Life永明）高級行政業務總監朱超（Jason）深明年輕人的想法和需要，因此多年來積極善用公司的平台與團隊的力量，為有志在理財策劃行業發展的年輕人提供所須的知識和經驗，助他們迅速成長，快人一步實現目標。</div> <br />
+              <div className="text">年輕、幹勁、活力不只是年輕人的代名詞，也是Sun Life永明Nova營業區予人的印象。「現時整個營業區約有250個成員，當中大約8成的成員為Y世代（90後），他們大多是大學畢業後便投身行業，或從其他行業轉行的全新人。」由於團隊成員的年紀與背景接近，團隊不只充滿活力，而且十分有「火」。「所以在成立團隊時，我們選擇了Nova，即『新星』這個名字，寓意團隊嶄露頭角且有爆炸力。」</div>
+              <br />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="about-video">
+          <video width="100%" height="350" src={require('../../assets/video/Nova Video.mp4')} type="video/mp4" controls />
+        </div>
+        <br />
+        <h2>善用公司優勢助新晉複製成功</h2>
+        <div className="row content">
+          <div className="col-xs-9 col-md-7">
+            <div className="title-box">
+              <div className="subtitle2">
+                <img alt="" src={require('../../assets/img/title1.svg').default} />
+                <span>公司新優勢</span>
+                <img alt="" src={require('../../assets/img/title2.svg').default} />
+              </div>
+              <div className="text">談及投身理財策劃行業的原因，Jason坦言是受行業升遷發展無限制、多勞多得，以及工作模式靈活具彈性等特質所吸引。
+                「當然在入行以至團隊建立初期也曾經歷一些摸索的階段，但憑藉Sun Life永明獨特的優勢，我們順利找到成功的秘訣，令到團隊在過去數年的人數及業績上都能快速增長。」
+                <br /><br />
+                Jason透露，團隊成立之初只有十多名成員，而隨着兩位大學師弟李建明（Nic）、張焯熙（Darren）先後加入團隊，三人遂善用Sun Life永明在強積金市場上的雄厚實力，成為拓展業務的重要渠道。
+                「由於本港在職人士都擁有強積金賬戶，透過為客戶跟進有關強積金事宜，令我們加深對客戶的認識，從而藉着日常接觸，進一步了解他們在保障與財富管理上的需要，並進行理財分析，為個人及團隊創造機遇。」
+                <br /><br />
+                這個為客戶進行理財策劃的方式，有助新晉顧問更容易起步，大大提升他們對個人事業發展的信心，即使經歷3年多的疫情，Nova的成員人數仍能節節上升，成為公司同齡隊伍中，增長幅度最快的團隊之一。
+                「令成員愉快地工作並實現個人目標是Nova的宗旨，透過公司的支援例如遙距投保服務，以及團隊上下的齊心協力，並不時舉辦的培訓課程和團隊凝聚活動，令成員在任何時刻仍能保持動力。」
+              </div>
+              <br />
+            </div>
+          </div>
+          <div className="col-xs-3 col-md-5">
+            <img
+              className="contentImg1"
+              src={require('../../assets/img/AboutUs-Jason.jpg')}
+              alt=""
+            />
+            <br />
+            <span className="contentImg1_span">Sun Life永明高級行政業務總監朱超（Jason）</span>
+          </div>
+        </div>
+      </div>
       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-md-6 offset-md-3">
@@ -88,6 +142,38 @@ export default function AboutUs() {
               <img alt="" className="award1" src={require('../../assets/img/award2.jpeg')} />
               <img alt="" className="award2" src={require('../../assets/img/award1.jpeg')} />
               <img alt="" className="award3" src={require('../../assets/img/award4.jpeg')} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container content2">
+        <h2>銳意拓展高淨值與大灣區客群</h2><br />
+        <div className="row content">
+          <div className="col-xs-3 col-md-5">
+            <img
+              className="contentImg1"
+              src={require('../../assets/img/AboutUs-Jason.jpg')}
+              alt=""
+            />
+            <br />
+            <span className="contentImg1_span">Sun Life永明高級行政業務總監朱超（Jason）</span>
+          </div>
+          <div className="col-xs-9 col-md-7">
+            <div className="title-box">
+              <div className="subtitle2">
+                <img alt="" src={require('../../assets/img/title1.svg').default} />
+                <span>拓展淨值及客群</span>
+                <img alt="" src={require('../../assets/img/title2.svg').default} />
+              </div>
+              <div className="text">隨着團隊規模不斷擴展， Jason透露除了強積金市場外，粵港澳大灣區訪港客戶市場，以及高淨值客戶群乃團隊未來的發展重點之一。
+                「Sun Life永明是一間以人為本，且在強積金市場擁有豐富經驗的公司，近年更銳意發展大灣區市場。配合有關發展，團隊會持續增員，並進一步協助成員提升專業水平，以及Nova的整體服務質素。」
+                <br /><br />
+                「Nova向來注重服務質量，所以多年來從不招募兼職成員，避免他們因其他事務影響客戶服務質素，對行業帶來負面形象。」Jason指出，Nova致力為成員營造開心、愉快的工作環境，但同樣重視他們的專業水平，以及對工作的投入度。
+                理財策劃工作是個人事業，即使有公司和團隊的支援，成員仍須全情投入，有營運生意的自覺，才能維持競爭優勢。而團隊目前約有50%成員取得百萬圓桌會（MDRT）會員資格。
+                <br /><br />
+                「我們強調成員必須有自律性，所以他們每天早上都要參與小組會議或培訓，藉此促進團隊交流並培養良好的工作心態，避免因行業的彈性工作模式而變得鬆懈。」Jason表示， Nova是一支年輕有活力，重質量的團隊，深明年輕人的想法和需要。
+                「未來我們會幫助更多有志在行業發展的年輕人藉工作找到滿足感和成就感，實現人生目標；亦令廣大市民可透過專業的理財顧問獲得適切的財富管理方案，發揮保險業應有的價值。」
+              </div>
             </div>
           </div>
         </div>

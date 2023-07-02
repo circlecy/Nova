@@ -13,28 +13,28 @@ export default function Footer() {
                     <div className="col-sm-12 col-md-6">
                         <div><img src={logoimg} alt="" className="logoImg" /></div>
                         <ul className="footer-links">
-                            <li>Email :  </li>
-                            <li>Phone : </li>
-                            <li>Location: </li>
+                            <li>Email : support@email.com </li>
+                            <li>電話 : 2567-8930</li>
+                            <li>地址: 455, Hong Kong</li>
                         </ul>
                     </div>
 
                     <div className="col-xs-6 col-md-3">
-                        <h6>About</h6>
+                        <h6>網站地址</h6>
                         <ul className="footer-links">
-                            <li><Link className="link" to="/about">About Us </Link></li>
-                            <li><Link className="link" to="/posts">News</Link></li>
-                            <li><Link className="link" to="/posts">Careers</Link></li>
-                            <li><Link className="link" to="/about">Award</Link></li>
+                            <li><Link className="link" to="/about">關於我們 </Link></li>
+                            <li><Link className="link" to="/posts">活動</Link></li>
+                            <li><Link className="link" to="/posts">加入我們</Link></li>
+                            <li><Link className="link" to="/about">聯絡及查詢</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-xs-6 col-md-3">
-                        <h6>Company</h6>
+                        <h6></h6>
                         <ul className="footer-links">
-                            <li><Link className="link" to="/login">Account</Link></li>
-                            <li><Link className="link" to="/posts">Event</Link></li>
-                            <li><Link className="link" to="/contact">Contact Us</Link></li>
+                            <li><Link className="link" to="/login">登入</Link></li>
+                            <li><Link className="link" to="/posts">活動</Link></li>
+                            <li><Link className="link" to="/contact">聯絡我們</Link></li>
                         </ul>
                     </div>
                 </div>

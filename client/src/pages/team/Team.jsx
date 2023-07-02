@@ -7,21 +7,21 @@ export default function Team() {
             <section className="page-title bg-dark-overlay text-center">
                 <div className="container">
                     <div className="page-title__holder">
-                        <h1 className="page-title__title">Our Teams</h1>
-                        <p className="page-title__subtitle">Experience Team Members</p>
+                        <h1 className="page-title__title"><b>團隊成員</b></h1>
+                        <p className="page-title__subtitle"></p>
                     </div>
                 </div>
             </section>
             <div className="hr-line">
                 <div className="container py-10">
-                    <h2 className="text-center">The Executive Team</h2>
+                    <h2 className="text-center"><b>團隊成員</b></h2>
                     <div className="flex justify-center mx-auto mt-6">
                         <span className="w-40 h-1 rounded-full"></span>
                         <span className="w-3 h-1 mx-1 rounded-full"></span>
                         <span className="w-1 h-1 rounded-full"></span>
                     </div>
                     <p className="mx-auto text-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
+                        團隊成員擁有專業水平，有豐富理財策劃工作經驗。成員全情投入，能維持競爭優勢。而團隊目前約有50%成員取得百萬圓桌會（MDRT）會員資格。
                     </p>
                 </div>
             </div>

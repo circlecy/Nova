@@ -85,7 +85,7 @@
     position: relative;
     padding-top: var(--padding-top-15);
     line-height: 1.5em;
-    font-size: 12px;
+    font-size: 1rem;
     color: #7B7B7B;
     width: 80%;
 }

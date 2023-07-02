@@ -8,17 +8,17 @@ export default function News() {
                 <div className="row">
                     <div className="col-xs-6 col-md-6">
                         <div className="bannerContent1">
-                            <h3 className="bannerTitle">Join Us </h3>
+                            <h3 className="bannerTitle"><b>加入我們</b></h3>
                             <div className="button">
-                                <Link to="/contact"><button className="button-5" role="button">Join Us</button></Link>
+                                <Link to="/contact"><button className="button-5" role="button">加入我們</button></Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-xs-6 col-md-6">
                         <div className="bannerContent2">
-                            <h3 className="bannerTitle">Get In Touch </h3>
+                            <h3 className="bannerTitle"><b>聯絡及查詢</b></h3>
                             <div className="button">
-                                <Link to="/contact"><button className="button-5" role="button">Contact Us</button></Link>
+                                <Link to="/contact"><button className="button-5" role="button">聯絡我們</button></Link>
                             </div>
                         </div>
                     </div>

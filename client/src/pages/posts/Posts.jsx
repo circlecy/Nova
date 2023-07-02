@@ -23,8 +23,8 @@ export default function Posts() {
                 <section className="page-title bg-dark-overlay text-center">
                     <div className="container">
                         <div className="page-title__holder">
-                            <h1 className="page-title__title">Our Update & Events</h1>
-                            <p className="page-title__subtitle">Our Teams event and update</p>
+                            <h1 className="page-title__title"><b>最新動態及活動</b></h1>
+                            <p className="page-title__subtitle"></p>
                         </div>
                     </div>
                 </section>

@@ -25,12 +25,12 @@ export default function News() {
                 <div className="newsTitle">
                     <div className="subtitle">
                         <img alt="" src={require('../../assets/img/title1.svg').default} />
-                        <span>Our Updates</span>
+                        <span><b>Event</b></span>
                         <img alt="" src={require('../../assets/img/title2.svg').default} />
                     </div>
                     <div className="title-box">
-                        <h2>Our Posts & Update</h2>
-                        <div className="text">Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.</div>
+                        <h2><b>最新活動</b></h2>
+                        <div className="text">令成員愉快地工作並實現個人目標是Nova的宗旨，透過公司的支援例如遙距投保服務，以及團隊上下的齊心協力，並不時舉辦的培訓課程和團隊凝聚活動，令成員在任何時刻仍能保持動力。</div>
                     </div>
                 </div>
                 <div className="row">

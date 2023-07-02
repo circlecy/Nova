@@ -1,21 +1,22 @@
+import logoimg from '../../assets/img/logo_color.png'
 import "./header.css";
 
 export default function Header() {
   return (
     <div className="header">
-      <div>
-        <img
-          className="headerImg"
-          src="https://images.pexels.com/photos/15007786/pexels-photo-15007786.jpeg"
-          alt=""
-        />
+      <div className="headerImg">
       </div>
-        <div className="headerTitles">
-          <h1 className="headerBrand">Nova</h1>
-          <h3 className="headerTitleLg">Explore Our World </h3>
-          <span className="headerTitleSm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-        </div>
-        <div className="mainPhoto"></div>
+      <div className="headerTitles">
+        <div className="headerBrand"><img src={logoimg} alt="" className="logoImg" /></div>
+        <h3 className="headerTitleLg">
+          <b>
+            <div className="dp-slogan">Sun Life 永明 多元發展 精英薈萃</div>
+            <div className="mb-slogan">Sun Life 永明 <br />多元發展 <br />精英薈萃</div>
+          </b>
+        </h3>
+        <span className="headerTitleSm"></span>
+      </div>
+      <div className="mainPhoto"></div>
       <div className="headerBottomRight"></div>
       <div className="headerBottomLeft"></div>
     </div>
