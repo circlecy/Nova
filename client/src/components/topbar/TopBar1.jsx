@@ -32,19 +32,19 @@ export default function TopBar1() {
           <div className={`nav-elements  ${showNavbar && 'active'}`}>
             <ul>
               <li>
-                <Link to="/" onClick={handleShowNavbar}>Home</Link>
+                <Link to="/" onClick={handleShowNavbar}>主頁</Link>
               </li>
               <li>
-                <Link to="/about" onClick={handleShowNavbar}>About Us</Link>
+                <Link to="/about" onClick={handleShowNavbar}>關於我們</Link>
               </li>
               <li>
-                <Link to="/posts" onClick={handleShowNavbar}>Posts</Link>
+                <Link to="/posts" onClick={handleShowNavbar}>活動</Link>
               </li>
               <li>
-                <Link to="/team" onClick={handleShowNavbar}>Teams</Link>
+                <Link to="/team" onClick={handleShowNavbar}>團隊成員</Link>
               </li>
               <li style={{ marginRight: '20px' }}>
-                <Link to="/contact" onClick={handleShowNavbar}>Contact Us</Link>
+                <Link to="/contact" onClick={handleShowNavbar}>聯絡我們</Link>
               </li>
               {user ? (
                 <li className="logoutBtn" onClick={handleLogout}>
@@ -52,7 +52,7 @@ export default function TopBar1() {
                 </li>
               ) : (
                 <li className="loginBtn">
-                  <Link to="/login" onClick={handleShowNavbar}>LOGIN</Link>
+                  <Link to="/login" onClick={handleShowNavbar}>登入</Link>
                 </li>
               )}
             </ul>
