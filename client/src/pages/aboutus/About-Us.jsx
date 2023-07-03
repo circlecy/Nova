@@ -110,7 +110,7 @@ export default function AboutUs() {
           <div className="col-xs-3 col-md-5">
             <img
               className="contentImg1"
-              src={require('../../assets/img/AboutUs-Jason.jpg')}
+              src={require('../../assets/img/AboutUS-Jason.jpg')}
               alt=""
             />
             <br />
@@ -152,7 +152,7 @@ export default function AboutUs() {
           <div className="col-xs-3 col-md-5">
             <img
               className="contentImg1"
-              src={require('../../assets/img/AboutUs-Jason.jpg')}
+              src={require('../../assets/img/AboutUS-Jason.jpg')}
               alt=""
             />
             <br />
