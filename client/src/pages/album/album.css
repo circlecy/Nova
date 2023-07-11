@@ -1,0 +1,305 @@
+.album .album-title {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 175px 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #181818;
+    background-image: url(https://images.pexels.com/photos/15007786/pexels-photo-15007786.jpeg);
+    filter: brightness(1.15);
+}
+
+.album .album-title.bg-dark-overlay:before {
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.album .album-title__holder {
+    max-width: 878px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.album .album-title__title {
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #1C3D88;
+}
+
+.album .album-title__subtitle {
+    font-size: 18px;
+    color: #1C3D88;
+    margin-bottom: 0;
+}
+
+.album .album-title--tall {
+    padding: 300px 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .album .album-title {
+        padding: 120px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .album .album-title {
+        padding: 60px 0;
+    }
+}
+
+/* Generic styles */
+.album html {
+    scroll-behavior: smooth;
+}
+
+.album .post-link {
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+    border-radius: .25rem;
+    text-align: center;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.album a:hover {
+    opacity: .6;
+}
+
+/* album-list styles */
+.album .album-list {
+    padding: 2rem 4rem;
+}
+
+.album .album-list a {
+    text-decoration: none;
+}
+
+.album .album-list>ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.album .album-list>ul>li {
+    border: 1px solid #E2E2E2;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.album .album-list>ul>li>figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+}
+
+.album .album-list>ul>li>figure>img {
+    width: 100%;
+}
+
+.album .album-list>ul>li>figure>figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+}
+
+.album .album-list>ul>li>figure>figcaption>h3 {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+}
+
+.album .album-list>ul>li>p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0rem .75rem;
+    color: #666666;
+}
+
+.album .album-list>ul>li>a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+
+
+.album .postImg {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.album .postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album .postCat {
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.album .albumTitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.album .postDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+    margin-left: 0.75rem;
+}
+
+.album .postDesc {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.album .postDesc::first-letter {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 400px) {
+    .album .album-list>ul {
+        display: block;
+    }
+}
+
+
+/*dialog*/
+.dialog {
+    display: flex;
+    /*align-items: center;
+    justify-content: end;*/
+    margin: 20px;
+}
+
+.dialog .button {
+    background: #428bca;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dialog .button:hover {
+    background: #3876ac;
+}
+
+.dialog .button:active {
+    border: 0;
+}
+
+.dialog .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog .modal-content {
+    margin: 10% auto;
+    width: 50%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+}
+
+.dialog .modal-header h2 {
+    margin: 0;
+}
+
+.dialog .modal-header {
+    display: block;
+}
+
+.dialog .modal-body {
+    padding: 10px 20px;
+    background: #fff;
+}
+
+.dialog .albumInput {
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.dialog .albumInput:focus {
+    outline: none;
+  }
+
+.dialog .modal-footer {
+    padding: 10px;
+}
+
+.dialog .modal-footer .createButton {
+    background: #428bca;
+    padding: 0.5em 2em;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.dialog .close {
+    float: right;
+    font-size: 30px;
+}
+
+.dialog .close:hover,
+.dialog .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

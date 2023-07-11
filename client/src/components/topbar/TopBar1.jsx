@@ -38,7 +38,10 @@ export default function TopBar1() {
                 <Link to="/about" onClick={handleShowNavbar}>關於我們</Link>
               </li>
               <li>
-                <Link to="/posts" onClick={handleShowNavbar}>活動</Link>
+                <Link to="/posts" onClick={handleShowNavbar}>最新動態</Link>
+              </li>
+              <li>
+                <Link to="/album" onClick={handleShowNavbar}>活動相簿</Link>
               </li>
               <li>
                 <Link to="/team" onClick={handleShowNavbar}>團隊成員</Link>
@@ -48,7 +51,7 @@ export default function TopBar1() {
               </li>
               {user ? (
                 <li className="logoutBtn" onClick={handleLogout}>
-                  LOGOUT
+                  登出
                 </li>
               ) : (
                 <li className="loginBtn">

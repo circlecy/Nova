@@ -65,6 +65,14 @@
     margin-bottom: 1rem !important;
 }
 
+.aboutus .contentTitle2 {
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+    color: #00008B;
+    text-transform: uppercase;
+    margin-bottom: 1rem !important;
+}
 
 .hi-icon {
     font-size: 44px;
@@ -212,7 +220,6 @@
         margin-top: 50vw;
     }
 }
-
 
 .aboutus .title-box {
     position: relative;

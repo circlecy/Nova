@@ -95,7 +95,7 @@ export default function Write() {
     <div className="write container">
       <form className="writeForm" onSubmit={handleSubmit}>
         <button className="writeSubmit" type="submit">
-          Publish
+          送出
         </button>
         <div className="writeFormGroup">
           <div className="image0">
@@ -103,7 +103,7 @@ export default function Write() {
               <label htmlFor="file0">
                 <div className="text" id="upload-content0">
                   <span>+</span><br />
-                  <span>Upload Image</span>
+                  <span>上傳圖片</span>
                 </div>
                 <div className="image">
                   <img src="" alt="" id="file-ip-0-preview" />
@@ -118,7 +118,7 @@ export default function Write() {
               <label htmlFor="file1">
                 <div className="text" id="upload-content1">
                   <span>+</span><br />
-                  <span>Upload Image</span>
+                  <span>上傳圖片</span>
                 </div>
                 <div className="preview image">
                   <img src="" alt="" id="file-ip-1-preview" />
@@ -133,7 +133,7 @@ export default function Write() {
               <label htmlFor="file2">
                 <div className="text" id="upload-content2">
                   <span>+</span><br />
-                  <span>Upload Image</span>
+                  <span>上傳圖片</span>
                 </div>
                 <div className="preview image">
                   <img src="" alt="" id="file-ip-2-preview" />
@@ -147,7 +147,7 @@ export default function Write() {
         <div className="writeFormGroup">
           <input
             type="text"
-            placeholder="Title"
+            placeholder="標題"
             className="writeInput"
             autoFocus={true}
             onChange={e => setTitle(e.target.value)}
@@ -155,7 +155,7 @@ export default function Write() {
         </div>
         <div className="writeFormGroup">
           <textarea
-            placeholder="Tell your story..."
+            placeholder="內容..."
             type="text"
             className="writeInput writeText"
             onChange={e => setDesc(e.target.value)}

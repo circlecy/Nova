@@ -7,7 +7,7 @@ export default function AboutUs() {
       <section className="page-title bg-dark-overlay text-center">
         <div className="container">
           <div className="page-title__holder">
-            <h1 className="page-title__title">關於我們</h1>
+            <h1 className="page-title__title"><b>關於我們</b></h1>
             <p className="page-title__subtitle"></p>
           </div>
         </div>
@@ -65,7 +65,8 @@ export default function AboutUs() {
       </div>
       <div className="container">
         <div className="contentTitle">
-          <br /><span>團隊年輕有活力 90後團隊打造行業新勢力</span><br />
+          <br /><span>團隊年輕有活力 </span><br />
+          <span>90後團隊打造行業新勢力</span><br />
         </div>
         <div className="row">
           <div className="col-xs-12 col-md-12">
@@ -110,7 +111,7 @@ export default function AboutUs() {
           <div className="col-xs-3 col-md-5">
             <img
               className="contentImg1"
-              src={require('../../assets/img/AboutUS-Jason.jpg')}
+              src={require('../../assets/img/AboutUs-Jason.jpg')}
               alt=""
             />
             <br />
@@ -152,7 +153,7 @@ export default function AboutUs() {
           <div className="col-xs-3 col-md-5">
             <img
               className="contentImg1"
-              src={require('../../assets/img/AboutUS-Jason.jpg')}
+              src={require('../../assets/img/AboutUs-Jason.jpg')}
               alt=""
             />
             <br />

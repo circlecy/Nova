@@ -1,0 +1,138 @@
+.gallery{
+    margin-bottom:50px;
+}
+
+.gallery .button {
+    background: #428bca;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gallery .button:hover {
+    background: #3876ac;
+}
+
+.gallery .button:active {
+    border: 0;
+}
+
+/* photoList*/
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item{
+	/*width:100%;*/
+}
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+
+
+
+
+
+/*dialog*/
+.dialog {
+    display: flex;
+    /*align-items: center;
+    justify-content: end;*/
+    margin: 20px;
+}
+
+
+
+.dialog .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog .modal-content {
+    margin: 10% auto;
+    width: 50%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+}
+
+.dialog .modal-header h2 {
+    margin: 0;
+}
+
+.dialog .modal-header {
+    display: block;
+}
+
+.dialog .modal-body {
+    padding: 10px 20px;
+    background: #fff;
+}
+
+.dialog .albumInput {
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.dialog .albumInput:focus {
+    outline: none;
+}
+
+.dialog .modal-footer {
+    padding: 10px;
+}
+
+.dialog .modal-footer .createButton {
+    background: #428bca;
+    padding: 0.5em 2em;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.dialog .close {
+    float: right;
+    font-size: 30px;
+}
+
+.dialog .close:hover,
+.dialog .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

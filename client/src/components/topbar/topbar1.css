@@ -63,7 +63,7 @@
     background-color: #574c4c;
 }
 
-.navbar .container .loginBtn{
+.navbar .container .loginBtn {
     background-color: #FFF;
     cursor: pointer;
     border: none;
@@ -76,11 +76,12 @@
 .navbar .container .loginBtn:hover {
     background-color: #F2AC0D;
 }
-.navbar .container .loginBtn:hover a{
+
+.navbar .container .loginBtn:hover a {
     font-style: #fff;
 }
 
-.navbar .container .logoutBtn{
+.navbar .container .logoutBtn {
     background-color: #FFF;
     cursor: pointer;
     border: none;
@@ -93,7 +94,8 @@
 .navbar .container .logoutBtn:hover {
     background-color: #F2AC0D;
 }
-.navbar .container .logoutBtn:hover a{
+
+.navbar .container .logoutBtn:hover a {
     font-style: #fff;
 }
 
@@ -107,7 +109,7 @@
     .navbar {
         height: 100px;
     }
-    
+
     .navbar .logo {
         margin: auto;
     }
@@ -130,10 +132,12 @@
         height: calc(100vh - 90px);
         transition: all 0.3s ease-in;
         overflow: hidden;
+        z-index: 2;
     }
 
     .navbar .nav-elements.active {
         width: 270px;
+        z-index: 2;
     }
 
     .navbar .nav-elements ul {

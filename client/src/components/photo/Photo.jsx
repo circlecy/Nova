@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
-import "./news.css";
+import "./photo.css";
 
-export default function News() {
+export default function Photo() {
     const PF = "http://45.80.181.65:5000/images/posts";
     const [posts, setPosts] = useState([]);
     const { search } = useLocation();
@@ -25,16 +25,17 @@ export default function News() {
                 <div className="newsTitle">
                     <div className="subtitle">
                         <img alt="" src={require('../../assets/img/title1.svg').default} />
-                        <span><b>Event</b></span>
+                        <span>Event</span>
                         <img alt="" src={require('../../assets/img/title2.svg').default} />
                     </div>
                     <div className="title-box">
-                        <h2><b>最新活動</b></h2>
+                        <h2><b>活動相簿</b></h2>
                         <div className="text">令成員愉快地工作並實現個人目標是Nova的宗旨，透過公司的支援例如遙距投保服務，以及團隊上下的齊心協力，並不時舉辦的培訓課程和團隊凝聚活動，令成員在任何時刻仍能保持動力。</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="posts">
+                        {console.log("post",posts)}
                         {posts.map((post, i) => (
                             i <= 6
                                 ? (<div key={i} className="col-xs-4 col-md-4">

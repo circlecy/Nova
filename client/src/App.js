@@ -8,6 +8,8 @@ import TopBar1 from "./components/topbar/TopBar1";
 import Footer from "./components/footer/Footer";
 import AboutUs from "./pages/aboutus/About-Us";
 import Posts from "./pages/posts/Posts";
+import Album from "./pages/album/Album";
+import Gallery from "./pages/gallery/Gallery";
 import Team from "./pages/team/Team";
 import ContactUs from "./pages/contactus/Contact-Us";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -24,6 +26,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/posts" element={<Posts />} />
+        <Route path="/album" element={<Album />} />
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/register" element={user ? <Home /> : <Register />} />
@@ -31,6 +34,7 @@ function App() {
         <Route path="/write" element={user ? <Write /> : <Register />} />
         <Route path="/settings" element={user ? <Settings /> : <Register />} />       
         <Route path="/post/:postId" element={<Single />} />
+        <Route path="/album/:albumName" element={<Gallery />} />
       </Routes>
       <Footer />
     </Router>
