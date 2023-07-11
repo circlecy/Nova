@@ -177,11 +177,11 @@
 }
 
 .teams .grid-item .w-24 {
-	width: 6rem;
+	width: 8rem;
 }
 
 .teams .grid-item .h-24 {
-	height: 6rem;
+	height: 8rem;
 }
 
 .teams .grid-item .mt-4 {
@@ -343,6 +343,7 @@
 	height: 100%;
 	border-radius: 0.25em;
 	background: var(--dark);
+	object-fit:contain;
 }
 
 .teams .list .member:hover {
