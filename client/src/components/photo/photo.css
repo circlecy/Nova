@@ -1,10 +1,10 @@
-.news {
+.gallery {
     background-color: #DDEEFF;
     margin-bottom: 130px;
     padding-bottom: 100px;
 }
 
-.news .newsTopRight {
+.gallery .galleryTopRight {
     background-color: #fff;
     width: 65%;
     height: 58px;
@@ -15,7 +15,7 @@
     margin-top: -25px;
 }
 
-.news .newsTopLeft {
+.gallery .galleryTopLeft {
     background-color: #fff;
     height: 58px;
     width: 35%;
@@ -27,64 +27,64 @@
 }
 
 @media (max-width: 800px) {
-    .news .newsTopRight {
+    .gallery .galleryTopRight {
         height: 38px;
     }
 
-    .news .newsTopLeft {
+    .gallery .galleryTopLeft {
         height: 38px;
     }
 }
 
 @media (max-width: 500px) {
-    .news .newsTopRight {
+    .gallery .galleryTopRight {
         height: 30px;
     }
 
-    .news .newsTopLeft {
+    .gallery .galleryTopLeft {
         height: 30px;
     }
 }
 
-.news .posts {
+.gallery .posts {
     flex: 9;
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
 }
 
-.news .newsTitle {
+.gallery .galleryTitle {
     text-align: center !important;
     padding-top: 80px;
 }
 
-.news .newsTitle .subtitle {
+.gallery .galleryTitle .subtitle {
     position: relative;
     letter-spacing: 0.20em;
     line-height: 1em;
     margin-bottom: var(--margin-bottom-10);
 }
 
-.news .newsTitle .subtitle img {
+.gallery .galleryTitle .subtitle img {
     width: 5%;
 }
 
-.news .newsTitle span {
+.gallery .galleryTitle span {
     color: #F2AC0D;
     font-size: 15px;
     font-weight: 500;
 }
 
-.news .title-box {
+.gallery .title-box {
     position: relative;
     margin-bottom: var(--margin-bottom-70);
 }
 
-.news .title-box h2 {
+.gallery .title-box h2 {
     position: relative;
 }
 
-.news .title-box .text {
+.gallery .title-box .text {
     position: relative;
     line-height: 1.5em;
     font-size: 14px;
@@ -92,19 +92,19 @@
     margin: auto;
 }
 
-.news .title-box.centered .text {
+.gallery .title-box.centered .text {
     max-width: 420px;
     margin: 0 auto;
 }
 
-.news .postImg {
+.gallery .postImg {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 7px;
 }
 
-.news .newsBottomLeft {
+.gallery .galleryBottomLeft {
     background-color: #fff;
     width: 65%;
     height: 65px;
@@ -115,7 +115,7 @@
     margin-top: 65px;
 }
 
-.news .newsBottomRight {
+.gallery .galleryBottomRight {
     background-color: #fff;
     height: 65px;
     width: 35%;
@@ -127,47 +127,47 @@
 }
 
 @media (max-width: 800px) {
-    .news .newsBottomLeft {
+    .gallery .galleryBottomLeft {
         height: 38px;
     }
 
-    .news .newsBottomRight {
+    .gallery .galleryBottomRight {
         height: 38px;
     }
 
-    .news .news {
+    .gallery .gallery {
         padding-bottom: 80px;
     }
 }
 
 @media (max-width: 500px) {
-    .news .newsBottomLeft {
+    .gallery .galleryBottomLeft {
         height: 30px;
     }
 
-    .news .newsBottomRight {
+    .gallery .galleryBottomRight {
         height: 30px;
     }
 
-    .news {
+    .gallery {
         padding-bottom: 80px;
     }
 }
 
-.news .postImg {
+.gallery .postImg {
     width: 100%;
     height: 280px;
     object-fit: cover;
     border-radius: 7px;
 }
 
-.news .postInfo {
+.gallery .postInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.news .postCat {
+.gallery .postCat {
     font-family: "Varela Round", sans-serif;
     font-size: 11px;
     color: #be9656;
@@ -177,7 +177,7 @@
     cursor: pointer;
 }
 
-.news .postTitle {
+.gallery .postTitle {
     font-family: "Josefin Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -185,7 +185,7 @@
     cursor: pointer;
 }
 
-.news .postDate {
+.gallery .postDate {
     font-family: "Lora", serif;
     font-style: italic;
     font-size: 13px;
@@ -193,7 +193,7 @@
     margin-top: 15px;
 }
 
-.news .postDesc {
+.gallery .postDesc {
     font-family: "Varela Round", sans-serif;
     font-size: 14px;
     color: #444;

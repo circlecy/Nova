@@ -1,4 +1,4 @@
-.single{
+.single {
     display: flex;
 }
 
@@ -85,8 +85,8 @@
     color: #666;
     font-size: 18px;
     line-height: 25px;
-    width:100%;
-    height:300px;
+    width: 100%;
+    height: 300px;
 }
 
 .singlePostDescInput:focus {
@@ -200,25 +200,31 @@
 
 @media (min-width: 300px) {
 
-    .singlePost .product-image img,
-    .singlePost .image-list img {
-        width: 100%;
-    }
-
     .singlePost .product-image {
         display: block;
         transition: opacity 0.3s ease-in-out;
+        width: 100%;
+        height: 52vh;
+        position: relative;
+        margin-bottom: 0.75rem;
+        background: #edf9ff;
     }
 
     .singlePost .product-image img {
-        height: 52vh;
         transition: opacity 0.3s ease-in-out;
     }
 
     .singlePost .product-image img.active {
         display: block;
-        margin: 0 0 0.75rem 0;
         transition: opacity 0.3s ease-in-out;
+        max-height: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 
     .singlePost .image-list {
@@ -227,8 +233,12 @@
     }
 
     .singlePost .image-list li {
-        margin: 0 0.75rem 0 0;
+        margin: 0 0.75rem 0.75rem 0;
         flex-basis: 100%;
+        width: 100%;
+        height: 10rem;
+        position: relative;
+        background: #edf9ff;
     }
 
     .singlePost .image-list li:nth-child(3) {
@@ -236,10 +246,20 @@
     }
 
     .singlePost .image-list img {
-        height: 10rem;
+        /* height: 10rem;
         width: 100%;
         transition: opacity 0.3s ease;
         cursor: pointer;
+        width: 100%; */
+        height: 100%;
+        transition: opacity 0.3s ease;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 
     .singlePost .image-list img:hover {

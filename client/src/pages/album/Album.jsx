@@ -38,7 +38,7 @@ export default function Album() {
         const newAlbum = {
             album: folder,
             photos: [],
-        };  
+        };
         try {
             await axios.post("/albums", newAlbum);
             window.location.reload();
@@ -85,10 +85,9 @@ export default function Album() {
                 </div>
                 <section className="album-list">
                     <ul>
-                        {album.map((album, i) => (
+                        {album.slice().reverse().map((album, i) => (
                             <li key={i}>
-                                {console.log("album", !album.photos.length)}
-                                {album.album && <img className="postImg" src={!album.photos.length ? require('../../assets/img/Nova-Banner.jpg') : PF + album.album + "/" + album.photos[0].name }alt="" />}
+                                {album.album && <img className="postImg" src={!album.photos.length ? require('../../assets/img/Nova-Banner.jpg') : PF + album.album + "/" + album.photos[0].name} alt="" />}
                                 <div className="postInfo link">
                                     <Link to={`/album/${album.album}`} className="link">
                                         <span className="albumTitle">{album.album}</span>

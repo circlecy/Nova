@@ -5,24 +5,24 @@ import { Link } from "react-router-dom";
 import "./photo.css";
 
 export default function Photo() {
-    const PF = "http://45.80.181.65:5000/images/posts";
-    const [posts, setPosts] = useState([]);
+    const PF = "http://45.80.181.65:5000/images/album/";
+    const [albums, setAlbums] = useState([]);
     const { search } = useLocation();
     const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
 
     useEffect(() => {
-        const fetchPosts = async () => {
-            const res = await axiosInstance.get("/posts" + search);
+        const fetchAlbums = async () => {
+            const res = await axiosInstance.get("/albums" + search);
             setPosts(res.data);
         };
-        fetchPosts();
+        fetchAlbums();
     }, [search]);
     return (
-        <div className="news">
-            <div className="newsTopRight"></div>
-            <div className="newsTopLeft"></div>
+        <div className="gallery">
+            <div className="galleryTopRight"></div>
+            <div className="galleryTopLeft"></div>
             <div className="container">
-                <div className="newsTitle">
+                <div className="galleryTitle">
                     <div className="subtitle">
                         <img alt="" src={require('../../assets/img/title1.svg').default} />
                         <span>Event</span>
@@ -30,33 +30,28 @@ export default function Photo() {
                     </div>
                     <div className="title-box">
                         <h2><b>活動相簿</b></h2>
-                        <div className="text">令成員愉快地工作並實現個人目標是Nova的宗旨，透過公司的支援例如遙距投保服務，以及團隊上下的齊心協力，並不時舉辦的培訓課程和團隊凝聚活動，令成員在任何時刻仍能保持動力。</div>
+                        <div className="text">令成員愉快地工作並實現個人目標是Nova的宗旨，公司不時舉辦的培訓課程和團隊凝聚活動，令成員在任何時刻仍能保持動力。</div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="posts">
-                        {console.log("post",posts)}
-                        {posts.map((post, i) => (
-                            i <= 6
+                        {albums.map((album, i) => (
+                            i < 6
                                 ? (<div key={i} className="col-xs-4 col-md-4">
-                                    {post.photo0 && <img alt="" className="postImg" src={PF + post.photo0} />}
+                                    {<img alt="" className="postImg" src={album.photos.length > 0 ? PF + album.album + "/" + album.photos[0].name : require('../../assets/img/Nova-Banner.jpg')} />}
                                     <div className="postInfo">
-                                        <Link to={`/post/${post._id}`} className="link">
-                                            <span className="postTitle">{post.title}</span>
+                                        <Link to={`/album/${album.album}`} className="link">
+                                            <span className="postTitle">{album.album}</span>
                                         </Link>
-                                        <span className="postDate">
-                                            {new Date(post.createdAt).toDateString()}
-                                        </span>
                                     </div>
-                                    <p className="postDesc">{post.desc}</p>
                                 </div>)
                                 : null
                         ))}
                     </div>
                 </div>
             </div>
-            <div className="newsBottomRight"></div>
-            <div className="newsBottomLeft"></div>
+            <div className="galleryBottomRight"></div>
+            <div className="galleryBottomLeft"></div>
         </div>
     );
 }

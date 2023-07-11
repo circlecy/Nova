@@ -9,7 +9,7 @@ export default function Gallery() {
   const location = useLocation();
   const PF = "http://45.80.181.65:5000/images/album/";
   const [Id, setId] = useState("");
-  const album = location.pathname.split("/")[2];
+  const album = decodeURI(location.pathname.split("/")[2]);
   const [photosList, setPhotoList] = useState([]);
   const [photosFile, setPhotoFile] = useState([]);
   const [albumPhotos, setAlbumPhotos] = useState([]);
@@ -88,54 +88,54 @@ export default function Gallery() {
   };
 
   return (
-    <div className="gallery">
-        <div className="dialog" >
-          {user ? (
-            <button id="modal-btn" className="button" onClick={openModal}>新增相片</button>
-          ) : (<br />)}
-          <div id="my-modal" className="modal">
-            <div className="modal-content">
-              <div className="modal-header">
-                <span className="close" onClick={closeModal}>&times;</span>
-                <h2>新增相片</h2>
+    <div className="galleries">
+      <div className="dialog" >
+        {user ? (
+          <button id="modal-btn" className="button" onClick={openModal}>新增相片</button>
+        ) : (<br />)}
+        <div id="my-modal" className="modal">
+          <div className="modal-content">
+            <div className="modal-header">
+              <span className="close" onClick={closeModal}>&times;</span>
+              <h2>新增相片</h2>
+            </div>
+            <div className="modal-body">
+              <input
+                type="file" multiple="multiple"
+                name="file"
+                id="photos"
+                accept="image/jpeg, image/png, image/jpg"
+                className="photoInput"
+                onChange={e => showList(e)}
+              />
+              <p>Selected files:</p>
+              <div id="fileList">
+                <ul>
+                  {photosList.map((photo, i) => (
+                    <li key={i}>{(i + 1)}. {(photo)}</li>
+                  ))}
+                </ul>
               </div>
-              <div className="modal-body">
-                <input
-                  type="file" multiple="multiple"
-                  name="file"
-                  id="photos"
-                  accept="image/jpeg, image/png, image/jpg"
-                  className="photoInput"
-                  onChange={e => showList(e)}
-                />
-                <p>Selected files:</p>
-                <div id="fileList">
-                  <ul>
-                    {photosList.map((photo, i) => (
-                      <li key={i}>{(i + 1)}. {(photo)}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              <div className="modal-footer">
-                <button className="createButton" onClick={handleUpload}>提交</button>
-              </div>
+            </div>
+            <div className="modal-footer">
+              <button className="createButton" onClick={handleUpload}>提交</button>
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="photo-gallery">
-          <div className="container">
-            <div className="intro">
-              <h2 className="text-center">{album + "相簿"}</h2><br />
-            </div>
-            <div className="row photos">
-              {albumPhotos.map((photo, i) => (
-                <div key={i} className="col-sm-6 col-md-4 col-lg-3 item"><a href={PF + album + "/" + photo.name} data-lightbox="photos"><img className="img-fluid" src={PF + album + "/" + photo.name} alt=""/></a></div>
-              ))}
-            </div>
+      <div className="photo-gallery">
+        <div className="container">
+          <div className="intro">
+            <h2 className="text-center">{album}相簿</h2><br />
+          </div>
+          <div className="row photos">
+            {albumPhotos.map((photo, i) => (
+              <div key={i} className="col-sm-6 col-md-4 col-lg-3 item"><a href={PF + album + "/" + photo.name} data-lightbox="photos"><img className="img-fluid" src={PF + album + "/" + photo.name} alt="" /></a></div>
+            ))}
           </div>
         </div>
+      </div>
     </div >
   );
 }
