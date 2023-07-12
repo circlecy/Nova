@@ -35,7 +35,7 @@ export default function News() {
                 </div>
                 <div className="row">
                     <div className="posts">
-                        {posts.map((post, i) => (
+                        {posts.slice().reverse().map((post, i) => (
                             i <= 6
                                 ? (<div key={i} className="col-xs-4 col-md-4">
                                     {post.photo0 && <img alt="" className="postImg" src={PF + post.photo0} />}

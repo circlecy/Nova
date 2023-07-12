@@ -13,12 +13,12 @@ export default function Award() {
                             <img className="dot" alt="" src={require('../../assets/img/award_icon.svg').default} />
                             <img
                                 className="awardImg2"
-                                src="https://images.pexels.com/photos/5326915/pexels-photo-5326915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                src={require('../../assets/img/3c9d475fda6e.jpg')}
                                 alt=""
                             />
                             <img
                                 className="awardImg1"
-                                src="https://images.pexels.com/photos/4516067/pexels-photo-4516067.jpeg"
+                                src={require('../../assets/img/DIRX0947.JPG')}
                                 alt=""
                             />
                             <div><img src={logoimg} alt="" className="logoImg" /></div>
@@ -35,7 +35,7 @@ export default function Award() {
                             <h2>銳意拓展高淨值與大灣區客群</h2>
                             <div className="text">
                                 隨着團隊規模不斷擴展，除了強積金市場外，粵港澳大灣區訪港客戶市場，以及高淨值客戶群乃團隊未來的發展重點之一。「Sun Life永明是一間以人為本，且在強積金市場擁有豐富經驗的公司，近年更銳意發展大灣區市場。配合有關發展，團隊會持續增員，並進一步協助成員提升專業水平，以及Nova的整體服務質素。」
-                                <br /><br />
+                                <br/><br/>
                                 Nova致力為成員營造開心、愉快的工作環境，但同樣重視他們的專業水平，以及對工作的投入度。而團隊目前約有50%成員取得百萬圓桌會（MDRT）會員資格。
                             </div>
                             <br />

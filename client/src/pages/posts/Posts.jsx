@@ -30,7 +30,7 @@ export default function Posts() {
                 </section>
                 <section className="posts-list">
                     <ul>
-                        {posts.map((post,i) => (
+                        {posts.slice().reverse().map((post,i) => (
                             <li key={i}>
                                 {post.photo0 && <img className="postImg" src={PF + post.photo0} alt="" />}
                                 <div className="postInfo link">

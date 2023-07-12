@@ -109,16 +109,24 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="col-xs-3 col-md-5">
-            <img
-              className="contentImg1"
-              src={require('../../assets/img/AboutUs-Jason.jpg')}
-              alt=""
-            />
-            <br />
-            <span className="contentImg1_span">Sun Life永明高級行政業務總監朱超（Jason）</span>
+            <div className="photoGroup">
+              <img alt="" className="award1" src={require('../../assets/img/DIRX0630.JPG')} />
+              <img alt="" className="award2" src={require('../../assets/img/DSC09608.JPG')} />
+              <img alt="" className="award3" src={require('../../assets/img/57bb41102724.JPG')} />
+            </div>
           </div>
         </div>
       </div>
+      {/*<div className="col-xs-3 col-md-5">
+        <img
+          className="contentImg1"
+          src={require('../../assets/img/AboutUs-Jason.jpg')}
+          alt=""
+        />
+        <br />
+        <span className="contentImg1_span">Sun Life永明高級行政業務總監朱超（Jason）</span>
+      </div>
+
       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-md-6 offset-md-3">
@@ -138,15 +146,9 @@ export default function AboutUs() {
               </li>
             </ul>
           </div>
-          <div className="col-md-6">
-            <div className="photoGroup">
-              <img alt="" className="award1" src={require('../../assets/img/award2.jpeg')} />
-              <img alt="" className="award2" src={require('../../assets/img/award1.jpeg')} />
-              <img alt="" className="award3" src={require('../../assets/img/award4.jpeg')} />
-            </div>
-          </div>
+
         </div>
-      </div>
+      </div>*/}
       <div className="container content2">
         <h2>銳意拓展高淨值與大灣區客群</h2><br />
         <div className="row content">

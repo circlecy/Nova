@@ -35,7 +35,7 @@ export default function Photo() {
                 </div>
                 <div className="row">
                     <div className="posts">
-                        {albums.map((album, i) => (
+                        {albums.slice().reverse().map((album, i) => (
                             i < 6
                                 ? (<div key={i} className="col-xs-4 col-md-4">
                                     {<img alt="" className="postImg" src={album.photos.length > 0 ? PF + album.album + "/" + album.photos[0].name : require('../../assets/img/Nova-Banner.jpg')} />}

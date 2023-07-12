@@ -56,7 +56,7 @@ export default function About() {
                         <div className="photoGroup">
                             <img
                                 className="awardImg1"
-                                src="https://images.pexels.com/photos/4516067/pexels-photo-4516067.jpeg"
+                                src={require('../../assets/img/DSC09769.JPG')}
                                 alt=""
                             />
                         </div>
