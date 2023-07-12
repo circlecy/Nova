@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./news.css";
 
 export default function News() {
-    const PF = "http://45.80.181.65:5000/images/posts";
+    const PF = "http://45.80.181.65:5000/images/posts/";
     const [posts, setPosts] = useState([]);
     const { search } = useLocation();
     const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
