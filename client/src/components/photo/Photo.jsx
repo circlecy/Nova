@@ -13,7 +13,7 @@ export default function Photo() {
     useEffect(() => {
         const fetchAlbums = async () => {
             const res = await axiosInstance.get("/albums" + search);
-            setPosts(res.data);
+            setAlbums(res.data);
         };
         fetchAlbums();
     }, [search]);
