@@ -1,4 +1,20 @@
+.header,
+.aboutus,
+.award,
+.contactus,
+.galleries,
+.login,
+.posts1,
+.register,
+.settings,
+.single,
+.teams,
+.write {
+    margin-top: 75px;
+}
+
 @media (max-width: 800px) {
+
     .header,
     .aboutus,
     .award,
@@ -16,6 +32,7 @@
 }
 
 @media (max-width: 800px) and (max-height: 500px) {
+
     .header,
     .aboutus,
     .award,

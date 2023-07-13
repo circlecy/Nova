@@ -7,8 +7,8 @@ export default function Team() {
             <section className="page-title bg-dark-overlay text-center">
                 <div className="container">
                     <div className="page-title__holder">
-                        <h1 className="page-title__title"><b>團隊成員</b></h1>
-                        <p className="page-title__subtitle">Experience Team Members</p>
+                        <h1 className="page-title__title"><b>領袖的話 <br/>& <br/>成員感言</b></h1>
+                        <p className="page-title__subtitle"></p>
                     </div>
                 </div>
             </section>

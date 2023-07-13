@@ -14,7 +14,10 @@
 .navbar {
     height: 75px;
     background-color: #DDEEFF;
-    position: relative;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
 }
 
 .navbar .logo .logoImg {

@@ -255,23 +255,6 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .teams .list {
 	margin: 0;
 	padding: 0;
@@ -346,28 +329,6 @@
 	object-fit:contain;
 }
 
-.teams .list .member:hover {
-	transform: scale(0.95);
-	transition: var(--trans);
-	filter: drop-shadow(0px 20px 10px #0008);
-}
-
-.teams .list .member:hover .thumb {
-	padding: 0.1em;
-	transition: var(--trans);
-	transform: rotate(-1deg);
-	--deg: -89deg;
-}
-
-.teams .list .member:nth-of-type(even):hover .thumb {
-	--deg: 91deg;
-}
-
-.teams .list .member:hover .thumb img {
-	filter: none;
-	transition: var(--trans);
-}
-
 .teams .list .description {
 	padding-top: 1vmin;
 }
@@ -396,11 +357,6 @@
 	right: 9vmin;
 	transform: rotate(2deg);
 	transform-origin: right bottom;
-}
-
-.teams .list .member:hover h3 {
-	transition: var(--trans);
-	transform: rotate(0deg);
 }
 
 .teams .list .co-funder:after {
@@ -434,13 +390,6 @@
 	transition: var(--trans);
 }
 
-.teams .list .description p a:hover {
-	transition: var(--trans);
-	color: var(--dark);
-	background: #DDEEFF;
-	font-weight: bold;
-}
-
 .teams .list .description p a img {
 	float: left;
 	width: 22px;
@@ -450,3 +399,55 @@
 	background: #fff;
 	margin-right: 2px;
 }
+
+@media (max-width: 800px) {
+	.teams .list .thumb {
+		width: 25vmin;
+		height: 25vmin;
+	}
+	.teams .list .description p {
+		padding: 0 2em;
+	}
+}
+
+@media (max-width: 500px) {
+	.teams .list .thumb {
+		width: 50vmin;
+		height: 50vmin;
+	}
+}
+
+/* Hover
+.teams .list .member:hover {
+	transform: scale(0.95);
+	transition: var(--trans);
+	filter: drop-shadow(0px 20px 10px #0008);
+}
+
+.teams .list .member:hover .thumb {
+	padding: 0.1em;
+	transition: var(--trans);
+	transform: rotate(-1deg);
+	--deg: -89deg;
+}
+
+.teams .list .member:nth-of-type(even):hover .thumb {
+	--deg: 91deg;
+}
+
+.teams .list .member:hover .thumb img {
+	filter: none;
+	transition: var(--trans);
+}
+
+.teams .list .description p a:hover {
+	transition: var(--trans);
+	color: var(--dark);
+	background: #DDEEFF;
+	font-weight: bold;
+}
+
+.teams .list .member:hover h3 {
+	transition: var(--trans);
+	transform: rotate(0deg);
+}*/
