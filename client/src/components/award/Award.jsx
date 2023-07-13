@@ -1,117 +1,66 @@
+import { Link } from "react-router-dom";
+import logoimg from "../../assets/img/logo_bg_wh.png"
 import "./award.css";
-import dc from "./DC.json";
-import direct from "./Direct.json";
-import nl from "./NL.json";
 
 export default function Award() {
+    return (
+        <div className="h-award">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xs-6 col-md-6" style={{minwidth: "720px"}}>
+                        <div className="photoGroup">
+                            <img className="rect" alt="" src={require('../../assets/img/award_rect.svg').default} />
+                            <img className="dot" alt="" src={require('../../assets/img/award_icon.svg').default} />
+                            <img
+                                className="awardImg2"
+                                src={require('../../assets/img/3c9d475fda6e.jpg')}
+                                alt=""
+                            />
+                            <img
+                                className="awardImg1"
+                                src={require('../../assets/img/DIRX0947.JPG')}
+                                alt=""
+                            />
+                            <div><img src={logoimg} alt="" className="logoImg" /></div>
+                        </div>
+                    </div>
+                    <div className="col-xs-6 col-md-6">
+                        <div className="title-box">
+                            <div className="subtitle">
+                                <img alt="" src={require('../../assets/img/title1.svg').default} />
+                                <span><b>擴展客群</b></span>
+                                <img alt="" src={require('../../assets/img/title2.svg').default} />
+                            </div>
 
-  return (
-    <div className="award">
-      <div className="container all-award">
-        <div className="container mt-5 mb-5">
-          <div className="row">
-            <div className="col-md-6 offset-md-3">
-              <h4>團隊獲得 MDRT/TOT/COT 成員</h4>
-              <ul className="timeline">
-                <li>
-                  <div className="award-name"><b>MDRT</b></div>
-                  <p>Million Dollar Round Table. (百萬圓桌會員)</p>
-                </li>
-                <li>
-                  <div className="award-name"><b>COT</b></div>
-                  <p>Court of the Table. (超級會員) </p>
-                </li>
-                <li>
-                  <div className="award-name"><b>TOT</b></div>
-                  <p>Top of the Table. (頂尖會員)</p>
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-6">
-              <div className="photoGroup">
-                <img alt="" className="award1" src={require('../../assets/img/DIRX0630.JPG')} />
-                <img alt="" className="award2" src={require('../../assets/img/DSC09608.JPG')} />
-                <img alt="" className="award3" src={require('../../assets/img/57bb41102724.JPG')} />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="agency"> <b>Nova DC Agency</b></div>
-        <div className="grid-list">
-          <div className="grid-item md:grid-cols-2">
-          {dc.map((dc,i) => (
-            <div key={i} className="px-12 py-8 transition-colors duration-300 transform border hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
-              <div className="flex sm:-mx-4 sm:flex-row">
-                <img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" src={require('../../assets/award/DC/'+ dc.photo)} />
-                <div className="mt-4 sm:mx-4 sm:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">
-                    {dc.name}, {dc.nickname}
-                  </h1>
-                  <p className="info mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                  Agency: {dc.agency} &nbsp; &nbsp; District: {dc.district}
-                  </p>
+                            <h2>銳意拓展高淨值與大灣區客群</h2>
+                            <div className="text">
+                                隨着團隊規模不斷擴展，除了強積金市場外，粵港澳大灣區訪港客戶市場，以及高淨值客戶群乃團隊未來的發展重點之一。「Sun Life永明是一間以人為本，且在強積金市場擁有豐富經驗的公司，近年更銳意發展大灣區市場。配合有關發展，團隊會持續增員，並進一步協助成員提升專業水平，以及Nova的整體服務質素。」
+                                <br/><br/>
+                                Nova致力為成員營造開心、愉快的工作環境，但同樣重視他們的專業水平，以及對工作的投入度。而團隊目前約有50%成員取得百萬圓桌會（MDRT）會員資格。
+                            </div>
+                            <br />
+                            <div className="stat row">
+                                <div className="first col-xs-4 col-md-4">
+                                    <h3>15+</h3>
+                                    <span className="text">團隊成員</span>
+                                </div>
+                                <div className="second col-xs-4 col-md-4">
+                                    <h3>10+</h3>
+                                    <span className="text">團隊獎項</span>
+                                </div>
+                                <div className="third col-xs-4 col-md-4">
+                                    <h3>50%</h3>
+                                    <span className="text">團隊成員取得MDRT會員資格</span>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="button">
+                                <Link to="/about"><button className="button-17">查看更多</button></Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <p className="qualify mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                <b>MDRT:</b> {dc.MDRT} <br/>
-                {dc.COT !== "" ? <span><b>COT:</b> {dc.COT} &nbsp;&nbsp; </span>: ""}
-                {dc.TOT !=="" ? <span><b>TOT:</b> {dc.TOT}</span>: ""}
-              </p>
             </div>
-          ))}
-          </div>
         </div>
-        <div className="agency"> <b>Nova Direct Agency</b></div>
-        <div className="grid-list">
-          <div className="grid-item md:grid-cols-2">
-          {direct.map((direct,i) => (
-            <div key={i} className="px-12 py-8 transition-colors duration-300 transform border hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
-              <div className="flex sm:-mx-4 sm:flex-row">
-                <img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" src={require('../../assets/award/Direct/'+ direct.photo)} />
-                <div className="mt-4 sm:mx-4 sm:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">
-                    {direct.name}, {direct.nickname}
-                  </h1>
-                  <p className="info mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                  Agency: {direct.agency} &nbsp; &nbsp; District: {direct.district}
-                  </p>
-                </div>
-              </div>
-              <p className="qualify mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                <b>MDRT:</b> {direct.MDRT} <br/>
-                {direct.COT !== "" ? <span><b>COT:</b> {direct.COT} &nbsp;&nbsp; </span>: ""}
-                {direct.TOT !== "" ? <span><b>TOT:</b> {direct.TOT}</span>: ""}
-              </p>
-            </div>
-          ))}
-          </div>
-        </div>
-        <div className="agency"> <b>Nova Direct Agency</b></div>
-        <div className="grid-list">
-          <div className="grid-item md:grid-cols-2">
-          {nl.map((nl,i) => (
-            <div key={i} className="px-12 py-8 transition-colors duration-300 transform border hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
-              <div className="flex sm:-mx-4 sm:flex-row">
-                <img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" src={require('../../assets/award/NL/'+ nl.photo)} />
-                <div className="mt-4 sm:mx-4 sm:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">
-                    {nl.name}, {nl.nickname}
-                  </h1>
-                  <p className="info mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                  Agency: {nl.agency} &nbsp; &nbsp; District: {nl.district}
-                  </p>
-                </div>
-              </div>
-              <p className="qualify mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-                <b>MDRT:</b> {nl.MDRT} <br/>
-                {nl.COT !== "" ? <span><b>COT:</b> {nl.COT} &nbsp;&nbsp; </span>: ""}
-                {nl.TOT !== "" ? <span><b>TOT:</b> {nl.TOT}</span>: ""}
-              </p>
-            </div>
-          ))}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    );
 }
