@@ -7,7 +7,7 @@ export default function Award() {
         <div className="h-award">
             <div className="container">
                 <div className="row">
-                    <div className="col-xs-6 col-md-6">
+                    <div className="col-xs-6 col-md-6" style={{minwidth: "720px"}}>
                         <div className="photoGroup">
                             <img className="rect" alt="" src={require('../../assets/img/award_rect.svg').default} />
                             <img className="dot" alt="" src={require('../../assets/img/award_icon.svg').default} />
