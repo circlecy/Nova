@@ -70,7 +70,7 @@
     border: none;
     padding: 10px;
     border-radius: 30px;
-    width: 120px;
+    width: 100px;
     text-align: center;
 }
 
@@ -171,7 +171,6 @@
 @media (max-width: 800px) and (max-height: 500px){
     .navbar {
         height: 75px;
-        margin-top: -75px;
     }
 
     .navbar .nav-elements {
