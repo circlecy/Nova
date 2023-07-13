@@ -1,3 +1,4 @@
+import ScrollToTop from "./ScrollToTop";
 import Home from "./pages/home/Home";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
@@ -23,6 +24,7 @@ function App() {
   const { user } = useContext(Context);
   return (
     <Router>
+      <ScrollToTop />
       <TopBar1 />
       <Routes>
         <Route exact path="/" element={<Home />} />
