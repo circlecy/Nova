@@ -148,7 +148,6 @@
 .about .awardImg1 {
     margin-top:20px;
     width: 100%;
-    filter: brightness(1.15);
     z-index: -1;
 }
 
