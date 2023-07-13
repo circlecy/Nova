@@ -7,6 +7,7 @@ import Register from "./pages/register/Register";
 import TopBar1 from "./components/topbar/TopBar1";
 import Footer from "./components/footer/Footer";
 import AboutUs from "./pages/aboutus/About-Us";
+import Award from "./pages/award/Award";
 import Posts from "./pages/posts/Posts";
 import Album from "./pages/album/Album";
 import Gallery from "./pages/gallery/Gallery";
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/award" element={<Award />} />
         <Route path="/posts" element={<Posts />} />
         <Route path="/album" element={<Album />} />
         <Route path="/team" element={<Team />} />

@@ -38,13 +38,16 @@ export default function TopBar1() {
                 <Link to="/about" onClick={handleShowNavbar}>關於我們</Link>
               </li>
               <li>
+                <Link to="/award" onClick={handleShowNavbar}>團隊成就</Link>
+              </li>
+              <li>
                 <Link to="/posts" onClick={handleShowNavbar}>最新動態</Link>
               </li>
               <li>
                 <Link to="/album" onClick={handleShowNavbar}>活動相簿</Link>
               </li>
               <li>
-                <Link to="/team" onClick={handleShowNavbar}>團隊成員</Link>
+                <Link to="/team" onClick={handleShowNavbar}>團隊感想</Link>
               </li>
               <li style={{ marginRight: '20px' }}>
                 <Link to="/contact" onClick={handleShowNavbar}>聯絡我們</Link>
