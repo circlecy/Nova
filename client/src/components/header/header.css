@@ -178,6 +178,7 @@
   }
 
   .headerTitles .headerTitleLg {
+    animation: none;
     font-size: 38px;
   }
 
