@@ -11,11 +11,11 @@ export default function Award() {
                         <div className="photoGroup">
                             <img className="rect" alt="" src={require('../../assets/img/award_rect.svg').default} />
                             <img className="dot" alt="" src={require('../../assets/img/award_icon.svg').default} />
-                            <img
+                            {/*<img
                                 className="awardImg2"
                                 src={require('../../assets/img/3c9d475fda6e.jpg')}
                                 alt=""
-                            />
+                            />*/}
                             <img
                                 className="awardImg1"
                                 src={require('../../assets/img/DIRX0947.JPG')}
@@ -38,7 +38,7 @@ export default function Award() {
                                 <br /><br />
                                 Nova致力為成員營造開心、愉快的工作環境，但同樣重視他們的專業水平，以及對工作的投入度。而團隊目前約有50%成員取得百萬圓桌會（MDRT）會員資格。
                             </div>
-                            <br />
+                            {/*<br />
                             <div className="stat row">
                                 <div className="first col-xs-4 col-md-4">
                                     <h3>60+</h3>
@@ -52,7 +52,7 @@ export default function Award() {
                                     <h3>60%</h3>
                                     <span className="text">團隊成員取得MDRT會員資格</span>
                                 </div>
-                            </div>
+                            </div>*/}
                             <br />
                             <div className="button">
                                 <Link to="/award"><button className="button-17">查看更多</button></Link>

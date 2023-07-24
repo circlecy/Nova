@@ -16,10 +16,6 @@
     filter: brightness(1.15);
 }
 
-.posts1 .page-title.bg-dark-overlay:before {
-    background-color: rgba(0, 0, 0, 0.36);
-}
-
 .posts1 .page-title__holder {
     max-width: 878px;
     margin-left: auto;
@@ -39,10 +35,6 @@
     margin-bottom: 0;
 }
 
-.posts1 .page-title--tall {
-    padding: 300px 0;
-}
-
 @media only screen and (max-width: 991px) {
     .posts1 .page-title {
         padding: 120px 0;
@@ -58,16 +50,6 @@
 /* Generic styles */
 .posts1 html {
     scroll-behavior: smooth;
-}
-
-.posts1 .post-link {
-    background-color: goldenrod;
-    text-decoration: none;
-    color: white;
-    border-radius: .25rem;
-    text-align: center;
-    display: inline-block;
-    transition: all .3s;
 }
 
 .posts1 a:hover {
@@ -86,7 +68,7 @@
 .posts1 .posts-list>ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     padding-inline-start: 0;
     list-style-type: none;
 }
@@ -97,43 +79,14 @@
     margin-bottom: 1rem;
 }
 
-.posts1 .posts-list>ul>li>figure {
-    max-height: 220px;
-    overflow: hidden;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-    position: relative;
-}
-
 .posts1 .posts-list>ul>li>figure>img {
     width: 100%;
-}
-
-.posts1 .posts-list>ul>li>figure>figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .7);
-    width: 100%;
-}
-
-.posts1 .posts-list>ul>li>figure>figcaption>h3 {
-    color: white;
-    padding: .75rem;
-    font-size: 1.25rem;
-}
-
-.posts1 .posts-list>ul>li>p {
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 0rem .75rem;
-    color: #666666;
 }
 
 .posts1 .posts-list>ul>li>a {
     padding: .5rem 1rem;
     margin: .5rem;
 }
-
 
 .posts1 .postImg {
     width: 100%;
@@ -146,16 +99,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.posts1 .postCat {
-    font-family: "Varela Round", sans-serif;
-    font-size: 11px;
-    color: #be9656;
-    line-height: 20px;
-    margin-top: 15px;
-    margin-right: 10px;
-    cursor: pointer;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
 }
 
 .posts1 .postTitle {
@@ -177,14 +124,14 @@
 
 .posts1 .postDesc {
     font-family: "Varela Round", sans-serif;
-    font-size: 14px;
-    color: #444;
     line-height: 24px;
     margin-top: 15px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+    color: #666666;
+    font-size: 1rem;
 }
 
 .posts1 .postDesc::first-letter {
@@ -193,9 +140,30 @@
     text-transform: uppercase;
 }
 
-
 @media (max-width: 400px) {
     .posts1 .posts-list>ul {
         display: block;
     }
+}
+
+.posts1 .button-margin{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.posts1 .button {
+    background: #428bca;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.posts1 .button:hover {
+    background: #3876ac;
+}
+
+.posts1 .button:active {
+    border: 0;
 }

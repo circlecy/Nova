@@ -11,13 +11,6 @@
     margin-left: auto;
 }
 
-.about .m-teambanner {
-    position: relative;
-    margin-bottom: 80px;
-    width: 100%;
-    display: none;
-}
-
 @media (max-width: 992px) {
     .about .container {
         width: 80%;
@@ -155,14 +148,12 @@
     margin-top: 6rem;
 }
 
-@media (max-width: 800px) {
-    .about .m-teambanner {
-        display: block;
-    }
+.about .aboutSubtitle2 .break{
+    display: none;
 }
 
-@media (max-width: 500px) {
-    .about .m-teambanner {
+@media (max-width: 800px) {
+    .about .aboutSubtitle2 .break{
         display: block;
     }
 }

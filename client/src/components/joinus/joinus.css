@@ -1,37 +1,36 @@
 .joinus {
-    margin-bottom: 8vh;
-}
-
-.bannerImg {
-    width: 100%;
-    object-fit: cover;
+  margin-bottom: 8vh;
+  margin-top: -9vh;
+  z-index: 3;
+  position: relative;
 }
 
 .joinus .bannerContent1 {
-    background-image: url("../../assets/img/Bottom-Banner-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../../assets/img/Bottom-Banner-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
 }
 
 .joinus .bannerContent2 {
-    background-image: url("../../assets/img/Bottom-Banner-2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../../assets/img/Bottom-Banner-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .joinus .bannerTitle {
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center !important;
-    padding-top: 5vw;
-    padding-bottom: 2vw;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center !important;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
 }
 
 .joinus .button {
-    text-align: center;
-    padding-bottom: 5.5vw;
+  text-align: center;
+  padding-bottom: 5.5vw;
 }
 
 /* CSS */
@@ -46,7 +45,7 @@
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   justify-content: center;

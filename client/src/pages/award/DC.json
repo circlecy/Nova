@@ -12,6 +12,16 @@
     {
         "agency":"DC",
         "district": "AF",
+        "name":"Lam Ngai Hong",
+        "nickname":"Nelson",
+        "photo": "Lam Ngai Hong.jpg",
+        "MDRT": "2021 ",
+        "COT": "2022",
+        "TOT": "2023"
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
         "name":"Choi Chi Chun",
         "nickname":"Neo",
         "photo": "Choi Chi Chun.jpg",
@@ -22,12 +32,22 @@
     {
         "agency":"DC",
         "district": "AF",
-        "name":"Lam Ngai Hong",
-        "nickname":"Nelson",
-        "photo": "Lam Ngai Hong.jpg",
-        "MDRT": "2021 ",
-        "COT": "2022",
-        "TOT": "2023"
+        "name":"Chan Siu Kee",
+        "nickname":"Derick",
+        "photo": "Chan Siu Kee.jpg",
+        "MDRT": "2020 - 2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Chan Siu Kee",
+        "nickname":"Derick",
+        "photo": "Chan Siu Kee.jpg",
+        "MDRT": "2020 - 2023",
+        "COT": "",
+        "TOT": ""
     },
     {
         "agency":"DC",
@@ -56,26 +76,6 @@
         "nickname":"Tea",
         "photo": "Wong Yin Ting.jpg",
         "MDRT": "2021 - 2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"DC",
-        "district": "AF",
-        "name":"Chan Siu Kee",
-        "nickname":"Derick",
-        "photo": "Chan Siu Kee.jpg",
-        "MDRT": "2020 - 2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"DC",
-        "district": "AF",
-        "name":"Chan Siu Kee",
-        "nickname":"Derick",
-        "photo": "Chan Siu Kee.jpg",
-        "MDRT": "2020 - 2023",
         "COT": "",
         "TOT": ""
     },

@@ -13,7 +13,7 @@ export default function Photo() {
     useEffect(() => {
         const fetchAlbums = async () => {
             const res = await axiosInstance.get("/albums" + search);
-            console.log("res.data",res.data)
+            console.log("res.data", res.data)
             setAlbums(res.data);
         };
         fetchAlbums();
@@ -37,10 +37,10 @@ export default function Photo() {
                 <div className="row">
                     <div className="posts">
                         {albums.slice().reverse().map((album, i) => (
-                            i < 6
+                            i <= 2
                                 ? (<div key={i} className="col-xs-4 col-md-4">
-                                    {<img alt="" className="postImg" src={album.photos.length > 0 ? PF + album.album + "/" + album.photos[0].name : require('../../assets/img/Nova-Banner.jpg')} />}
-                                    <div className="postInfo">
+                                    {<img alt="" className="albumImg" src={album.photos.length > 0 ? PF + album.album + "/" + album.photos[0].name : require('../../assets/img/Nova-Banner.jpg')} />}
+                                    <div className="albumInfo">
                                         <Link to={`/album/${album.album}`} className="link">
                                             <span className="postTitle">{album.album}</span>
                                         </Link>

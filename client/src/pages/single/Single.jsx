@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router";
-import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./single.css";
 
@@ -90,30 +89,22 @@ export default function Single() {
                   {title}
                   {post.username === user?.username && (
                     <div className="singlePostEdit">
-                      <i
-                        className="singlePostIcon far fa-edit"
-                        onClick={() => setUpdateMode(true)}
-                      ></i>
-                      <i
-                        className="singlePostIcon far fa-trash-alt"
-                        onClick={handleDelete}
-                      ></i>
+                      <i className="singlePostIcon far fa-edit" onClick={() => setUpdateMode(true)}></i>
+                      <i className="singlePostIcon far fa-trash-alt" onClick={handleDelete}></i>
                     </div>
                   )}
                 </h1>
               )}
               <br />
-              <span className="singlePostAuthor">
+              {/*<span className="singlePostAuthor">
                 Author:
-                <Link to={`/?user=${post.username}`} className="link">
                   <b> {post.username}</b>
-                </Link>
               </span>
               <br />
               <span className="singlePostDate">
                 Date:
                 <i> {new Date(post.createdAt).toDateString()} </i>
-              </span>
+                  </span>*/}
               {updateMode ? (
                 <textarea
                   className="singlePostDescInput"

@@ -131,7 +131,7 @@ export default function Gallery() {
           </div>
           <div className="row photos">
             {albumPhotos.map((photo, i) => (
-              <div key={i} className="col-sm-6 col-md-4 col-lg-3 item"><a href={PF + album + "/" + photo.name} data-lightbox="photos"><img className="img-fluid" src={PF + album + "/" + photo.name} alt="" /></a></div>
+              <div key={i} className="photos-margin col-sm-6 col-md-4 col-lg-3 item"><a href={PF + album + "/" + photo.name} data-lightbox="photos"><img className="img-fluid" src={PF + album + "/" + photo.name} alt="" /></a></div>
             ))}
           </div>
         </div>

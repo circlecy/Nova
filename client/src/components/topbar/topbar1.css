@@ -125,7 +125,7 @@
         width:100%;
         position: fixed;
         z-index: 5;
-        margin-top: -100px;
+        top: 0;
     }
 
     .navbar .logo {

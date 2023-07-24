@@ -36,18 +36,18 @@ export default function News() {
                 <div className="row">
                     <div className="posts">
                         {posts.slice().reverse().map((post, i) => (
-                            i <= 6
+                            i <= 2
                                 ? (<div key={i} className="col-xs-4 col-md-4">
                                     {post.photo0 && <img alt="" className="postImg" src={PF + post.photo0} />}
                                     <div className="postInfo">
                                         <Link to={`/post/${post._id}`} className="link">
                                             <span className="postTitle">{post.title}</span>
                                         </Link>
-                                        <span className="postDate">
+                                        {/*<span className="postDate">
                                             {new Date(post.createdAt).toDateString()}
-                                        </span>
+                                        </span>*/}
+                                        <p className="postDesc">{post.desc}</p>
                                     </div>
-                                    <p className="postDesc">{post.desc}</p>
                                 </div>)
                                 : null
                         ))}

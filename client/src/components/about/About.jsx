@@ -4,7 +4,6 @@ import "./about.css";
 export default function About() {
     return (
         <div className="about">
-            <div><img src={require('../../assets/img/DSC09769.JPG')} alt="" className="m-teambanner" /></div>
             <div className="container">
                 <div className="aboutTitle">
                     團隊年輕有活力 <br />
@@ -26,7 +25,7 @@ export default function About() {
                     關於我們
                 </div>
                 <div className="aboutSubtitle2">
-                    Nova - 團隊年輕有活力 突破界限 創造無價
+                    Nova - 團隊年輕有活力 <br className="break" /> 突破界限 創造無價
                 </div>
                 <div className="row">
                     <div className="col-xs-9 col-md-7">
@@ -56,7 +55,7 @@ export default function About() {
                         <div className="photoGroup">
                             <img
                                 className="awardImg1"
-                                src={require('../../assets/img/DSC09184.JPG')}
+                                src={require('../../assets/img/DIRX0947.JPG')}
                                 alt=""
                             />
                         </div>

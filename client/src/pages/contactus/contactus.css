@@ -16,10 +16,6 @@
     filter: brightness(1.15);
 }
 
-.contactus .page-title.bg-dark-overlay:before {
-    background-color: rgba(0, 0, 0, 0.36);
-}
-
 .contactus .page-title__holder {
     max-width: 878px;
     margin-left: auto;
@@ -39,10 +35,6 @@
     margin-bottom: 0;
 }
 
-.contactus .page-title--tall {
-    padding: 300px 0;
-}
-
 @media only screen and (max-width: 991px) {
     .contactus .page-title {
         padding: 120px 0;
@@ -58,14 +50,6 @@
 .contactus .container{
     margin-top: 15px;
     margin-bottom:30px;
-}
-
-.contactus .page-in {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    background: #fff;
-    min-height: 100px;
-    line-height: 100px;
 }
 
 .contactus .promo-block {

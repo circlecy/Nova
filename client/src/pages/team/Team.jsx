@@ -86,9 +86,9 @@ export default function Team() {
             <div className="list">
                 <ul className="team">
                     <li className="member">
-                        <div className="thumb"><img alt="" src={require('../../assets/staff/sonia_icon.PNG')} /></div>
+                        <div className="thumb"><img alt="" src={require('../../assets/staff/Sonia.jpg')} /></div>
                         <div className="description">
-                            <h3>Sonia (1K)</h3>
+                            <h3>Sonia </h3>
                             <p>前職業 : 學生(fresh grad)<br />
                                 加入Sunlife日期 : 07/2022<br /><br />
                                 喺加入NOVA呢個大家庭之前，我可謂未真正接觸過職場生活。不過，我好慶幸我畢業第一份工就選擇咗呢度。呢度嘅同事後生有活力，玩得傾得，令我好快可以同大家打成一片，而且大家都會無私解答我所有疑問，令我從來都唔會覺得無助。相比起其他同屆同學，我覺得我嘅工作環境係最開心嘅。
@@ -99,7 +99,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Ada.jpeg')} /></div>
                         <div className="description">
-                            <h3>Ada (AX)</h3>
+                            <h3>Ada </h3>
                             <p>前職業 : 酒店訂房部<br />
                                 加入Sunlife日期 : 11/2022<br /><br />
                                 以前做酒店成日都好忙，要一日返十幾個鐘。入左呢一行，我可以自由分配時間，多左陪屋企人，做到work life balance。
@@ -112,7 +112,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Ashley.jpg')} /></div>
                         <div className="description">
-                            <h3>Ashley (AX)</h3>
+                            <h3>Ashley </h3>
                             <p>前職業 : 餐飲業人力資源部(HR)<br />
                                 加入Sunlife日期 : 08/2017<br /><br />
                                 轉眼入行將近6年。回想起當初由人力資源部文員掙扎轉行好像是剛發生一樣。六年間的種種變化讓我感到驚訝，好像一轉眼間，當初遙不可及的夢想都於短短時間入行三年後真正一一實現：家人能夠退休並享受生活，成功為家人置業，同時迎來了人生新的階段可以追求自己所想。這些變化讓我深刻體會到，當初轉行是我人生最勇敢的決定，希望大家都可以勇敢追求及完成心中所想。
@@ -123,7 +123,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Anna 1k.jpeg')} /></div>
                         <div className="description">
-                            <h3>Anna (1K)</h3>
+                            <h3>Anna </h3>
                             <p>前職業 : 銀行業<br />
                                 加入Sunlife日期 : 07/2022<br /><br />
                                 加入nova family 已差不多有一年，一開始的印象還是很深刻。
@@ -135,9 +135,9 @@ export default function Team() {
                         </div>
                     </li>
                     <li className="member">
-                        <div className="thumb"><img alt="" src={require('../../assets/staff/lily-icon.PNG')} /></div>
+                        <div className="thumb"><img alt="" src={require('../../assets/staff/Lily.JPG')} /></div>
                         <div className="description">
-                            <h3>Lily (1K)</h3>
+                            <h3>Lily </h3>
                             <p>加入Sunlife日期 : 07/2020<br />
                                 加入Sunlife日期 : 04/2019<br /><br />
                                 從來都估唔到自己有一日會加入保險行業
@@ -156,7 +156,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Aiden.jpeg')} /></div>
                         <div className="description">
-                            <h3>Aiden (1K)</h3>
+                            <h3>Aiden </h3>
                             <p>前職業 : Marketing Sales<br />
                                 加入Sunlife日期 : 02/2022<br /><br />
                                 Um… 大家好，我係 Nova 1K 嘅 Aiden Wu。你可能有聽過我個名，但冇聽過都唔緊要，我會努力令你哋記得我
@@ -170,7 +170,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/ANNA YU AX.jpeg')} /></div>
                         <div className="description">
-                            <h3>Anna Yu (AX)</h3>
+                            <h3>Anna Yu </h3>
                             <p>前職業 : 海外升學顧問<br />
                                 加入Sunlife日期 : 02/2021<br /><br />
                                 係澳洲番黎，加入左Nova呢個團隊，同一班年紀差唔多既後生仔一齊拼搏，並肩作戰，做到自己想達到既目標，不斷係事業上突破自己，好有滿足感。
@@ -184,7 +184,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Cena.jpg')} /></div>
                         <div className="description">
-                            <h3>Cena Lau (1K)</h3>
+                            <h3>Cena Lau </h3>
                             <p>前職業 : 動畫設計師<br />
                                 加入Sunlife日期 : 02/2019<br /><br />
                                 由為別人工作，以致有機會自己建立團隊開展一盤生意確實唔容易，但呢個行業同團隊令我體會到理財策劃嘅重要性，為每個客戶計劃人生，帶到意義俾客人非常有滿足感。
@@ -197,7 +197,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Michael Chan.jpg')} /></div>
                         <div className="description">
-                            <h3>Michael Chan (1K)</h3>
+                            <h3>Michael Chan </h3>
                             <p>前職業 : 空中服務員<br />
                                 加入Sunlife日期 : 12/2020<br /><br />
                                 當初抱住試下既心態入行，由以前每個月公司安排更表，到呢行要自己幫自己安排appointment，一開頭好唔慣。但我一步一步走到今日，入行兩年都連續做到MDRT，由當初對未來好迷惘，到而家做到業主，無唸過人生可以係短短兩年幾有咁大變化。慶幸Nova 呢個大家庭幫左我好多，更慶幸我自己當初既堅持同努力。
@@ -208,7 +208,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Heidi Li.jpeg')} /></div>
                         <div className="description">
-                            <h3>Heidi Li (1K)</h3>
+                            <h3>Heidi Li </h3>
                             <p>前職業 : 空中服務員(機艙乘務長)<br />
                                 加入Sunlife日期 : 12/2020<br /><br />
                                 加入NOVA這個團隊兩年多的時間，相比過往工作而言，同樣要接觸許多不同類別的人，但保險這行業無疑更具挑戰性，特別在心理層面上。轉換跑道由零開始的日子，團隊為大家預備不少培訓和經驗分享，加快我融入這行業的步伐。平時面對不同的疑難，同事們都樂於幫忙和解答，無分階級。團隊亦不定期舉辦大大小小的活動，為工作以外的生活添加不少色彩。在這裡學習到與得到的，超於想像。
@@ -219,7 +219,7 @@ export default function Team() {
                     <li className="member">
                         <div className="thumb"><img alt="" src={require('../../assets/staff/Wesker Lee.jpg')} /></div>
                         <div className="description">
-                            <h3>Wesker Lee (1K)</h3>
+                            <h3>Wesker Lee </h3>
                             <p>前職業 : 學生(fresh grad)<br />
                                 加入Sunlife日期 : 07/2015<br /><br />
                                 加入左Nova Family 接近第8年時間，係我大學畢業後第一份工一做就做到而家

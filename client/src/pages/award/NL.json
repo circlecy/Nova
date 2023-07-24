@@ -12,10 +12,40 @@
     {
         "agency":"NL",
         "district": "DR",
+        "name":"Chan King Wai",
+        "nickname":"Vincent",
+        "photo": "Chan King Wai.jpg",
+        "MDRT": "2017-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "DR",
         "name":"Tse Tsz Chun",
         "nickname":"Gareth",
         "photo": "Tse Tsz Chun.jpg",
-        "MDRT": "2023",
+        "MDRT": "2018-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Lam Chung Yin",
+        "nickname":"Michael",
+        "photo": "Lam Chung Yin.jpg",
+        "MDRT": "2020-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Li Yinying",
+        "nickname":"Nicole",
+        "photo": "Li Yin Ying.jpg",
+        "MDRT": "2021-2023",
         "COT": "",
         "TOT": ""
     },
@@ -25,36 +55,86 @@
         "name":"Chan Hing Hong",
         "nickname":"Jerry",
         "photo": "Chan Hing Hong.jpg",
-        "MDRT": "2023",
+        "MDRT": "2021-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Yeung Ching Man",
+        "nickname":"Serena",
+        "photo": "Yeung Ching Man.jpg",
+        "MDRT": "",
+        "COT": "2021-2023",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Tsui Siu Chor",
+        "nickname":"Adam",
+        "photo": "Tsui Siu Chor.jpg",
+        "MDRT": "2021 & 2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Lam Wai Hung",
+        "nickname":"Eddie",
+        "photo": "Lam Wai Hung.jpg",
+        "MDRT": "2022-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Tam Ka Ki",
+        "nickname":"Jamie",
+        "photo": "Tam Ka Ki.jpg",
+        "MDRT": "2022-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Wong Chun Wai",
+        "nickname":"Barry",
+        "photo": "Wong Chun Wai.jpg",
+        "MDRT": "2022-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Leung Hiu Tung",
+        "nickname":"Summer",
+        "photo": "Leung Hiu Tung.jpg",
+        "MDRT": "2022-2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
+        "district": "IV",
+        "name":"Tang Yuen Tung",
+        "nickname":"Daphne",
+        "photo": "Tang Yuen Tung.jpg",
+        "MDRT": "2022-2023",
         "COT": "",
         "TOT": ""
     },
     {
         "agency":"NL",
         "district": "DR",
-        "name":"Sin King Wai",
-        "nickname":"Jerry",
-        "photo": "Sin King Wai.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "DR",
-        "name":"Chan King Wai",
-        "nickname":"Vincent",
-        "photo": "Chan King Wai.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "DR",
-        "name":"Li Ching Kei",
+        "name":"Li Ching Hei",
         "nickname":"Trevor",
-        "photo": "Li Ching Kei.jpg",
+        "photo": "Li Ching Hei.jpg",
         "MDRT": "2023",
         "COT": "",
         "TOT": ""
@@ -72,39 +152,9 @@
     {
         "agency":"NL",
         "district": "IV",
-        "name":"Lam Wai Hung",
-        "nickname":"Eddie",
-        "photo": "Lam Wai Hung.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Yeung Ching Man",
-        "nickname":"Serena",
-        "photo": "Yeung Ching Man.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Li Yin Ying",
-        "nickname":"Nicole",
-        "photo": "Li Yin Ying.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Lam Chung Yin",
-        "nickname":"Michael",
-        "photo": "Lam Chung Yin.jpg",
+        "name":"Pun Tung",
+        "nickname":"",
+        "photo": "Pun Tung.jpg",
         "MDRT": "2023",
         "COT": "",
         "TOT": ""
@@ -122,69 +172,9 @@
     {
         "agency":"NL",
         "district": "IV",
-        "name":"Tam Ka Ki",
-        "nickname":"Jamie",
-        "photo": "Tam Ka Ki.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Pun Tung",
-        "nickname":"Pun Tung",
-        "photo": "Pun Tung.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
         "name":"Leung Tsz Lam",
         "nickname":"Steffi",
         "photo": "Leung Tsz Lam.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Wong Chun Wai",
-        "nickname":"Barry",
-        "photo": "Wong Chun Wai.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Leung Hiu Tung",
-        "nickname":"Summer",
-        "photo": "Leung Hiu Tung.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Tsui Siu Chor",
-        "nickname":"Adam",
-        "photo": "Tsui Siu Chor.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"NL",
-        "district": "IV",
-        "name":"Tang Yuen Tung",
-        "nickname":"Daphne",
-        "photo": "Tang Yuen Tung.jpg",
         "MDRT": "2023",
         "COT": "",
         "TOT": ""
@@ -201,10 +191,20 @@
     },
     {
         "agency":"NL",
+        "district": "DR",
+        "name":"Sin King Wai",
+        "nickname":"Osmond",
+        "photo": "Sin King Wai.jpg",
+        "MDRT": "2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"NL",
         "district": "IV",
-        "name":"Ho Long Kei",
+        "name":"Ho Long Hei",
         "nickname":"Joshua",
-        "photo": "Ho Long Kei.jpg",
+        "photo": "Ho Long Hei.jpg",
         "MDRT": "2023",
         "COT": "",
         "TOT": ""

@@ -20,10 +20,10 @@
 }
 
 /* photoList*/
-.portfolio-menu{
+.galleries .portfolio-menu{
 	text-align:center;
 }
-.portfolio-menu ul li{
+.galleries .portfolio-menu ul li{
 	display:inline-block;
 	margin:0;
 	list-style:none;
@@ -36,10 +36,10 @@
 	transition:all .5s ease;
 }
 
-.portfolio-item{
+.galleries .portfolio-item{
 	/*width:100%;*/
 }
-.portfolio-item .item{
+.galleries .portfolio-item .item{
 	/*width:303px;*/
 	float:left;
 	margin-bottom:10px;
@@ -50,7 +50,7 @@
 
 
 /*dialog*/
-.dialog {
+.galleries .dialog {
     display: flex;
     /*align-items: center;
     justify-content: end;*/
@@ -59,7 +59,7 @@
 
 
 
-.dialog .modal {
+.galleries .dialog .modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -71,7 +71,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.dialog .modal-content {
+.galleries .dialog .modal-content {
     margin: 10% auto;
     width: 50%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
@@ -79,33 +79,33 @@
     animation-duration: var(--modal-duration);
 }
 
-.dialog .modal-header h2 {
+.galleries .dialog .modal-header h2 {
     margin: 0;
 }
 
-.dialog .modal-header {
+.galleries .dialog .modal-header {
     display: block;
 }
 
-.dialog .modal-body {
+.galleries .dialog .modal-body {
     padding: 10px 20px;
     background: #fff;
 }
 
-.dialog .albumInput {
+.galleries .dialog .albumInput {
     font-size: 25px;
     padding: 10px 10px;
 }
 
-.dialog .albumInput:focus {
+.galleries .dialog .albumInput:focus {
     outline: none;
 }
 
-.dialog .modal-footer {
+.galleries .dialog .modal-footer {
     padding: 10px;
 }
 
-.dialog .modal-footer .createButton {
+.galleries .dialog .modal-footer .createButton {
     background: #428bca;
     padding: 0.5em 2em;
     color: #fff;
@@ -115,13 +115,13 @@
     margin-right: 10px;
 }
 
-.dialog .close {
+.galleries .dialog .close {
     float: right;
     font-size: 30px;
 }
 
-.dialog .close:hover,
-.dialog .close:focus {
+.galleries .dialog .close:hover,
+.galleries .dialog .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
@@ -135,4 +135,8 @@
     to {
         opacity: 1;
     }
+}
+
+.galleries .photos-margin{
+    margin: 15px 0;
 }
