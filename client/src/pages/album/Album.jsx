@@ -17,12 +17,12 @@ export default function Album() {
     const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });
 
     useEffect(() => {
-        bubbles[current].style.borderColor = "white";
         const fetchAlbum = async () => {
-            const res = await axios.get("/albums");
+            const res = await axiosInstance.get("/albums");
             setAlbum(res.data);
         };
         fetchAlbum();
+        bubbles[current].style.borderColor = "white";
     }, [bubbles, current]);
 
     //dialog 
@@ -154,7 +154,7 @@ export default function Album() {
                 </div>
                 <section className="album-list">
                     <ul>
-                        {album.reverse().map((album, i) => (
+                        {album.slice().reverse().map((album, i) => (
                             <li key={i}>
                                 {album.album && <img className="albumImg" src={!album.photos.length ? require('../../assets/img/Nova-Banner.jpg') : PF + album.album + "/" + album.photos[0].name} alt="" />}
                                 <div className="albumInfo link">

@@ -26,8 +26,8 @@ export default function Posts() {
                 <section className="page-title text-center">
                     <div className="container">
                         <div className="page-title__holder">
-                            <h1 className="page-title__title">Our Update & Events</h1>
-                            <p className="page-title__subtitle">Our Teams event and update</p>
+                            <h1 className="page-title__title">最新動態及文章</h1>
+                            <p className="page-title__subtitle"></p>
                         </div>
                     </div>
                 </section>
