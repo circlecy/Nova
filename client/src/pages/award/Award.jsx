@@ -4,6 +4,7 @@ import direct from "./Direct.json";
 import nl from "./NL.json";
 
 export default function Award() {
+  const PF = "http://45.80.181.65:5000/images/staff/";
   const openAgency = (agency, name) => {
     var elems = document.querySelectorAll(".active")[0];
     if (elems) {
@@ -63,7 +64,12 @@ export default function Award() {
               {dc.map((dc, i) => (
                 <ul key={i} >
                   <li className="list-flex">
-                    <img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/DC/" + dc.photo)} style={{ width: "70px", height: "70px" }} />
+                    <LazyLoadImage src={PF + "DC/" + dc.photo}
+                      className="object-cover w-24 rounded-full sm:mx-4"
+                      width={10} height={10}
+                      alt="Image Alt"
+                    />
+                    {/*<img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/DC/" + dc.photo)} style={{ width: "70px", height: "70px" }} />*/}
                     <div className="details">
                       <span className="name">{dc.name}, {dc.nickname}</span><br />
                       <span className="member">
@@ -85,13 +91,18 @@ export default function Award() {
               {direct.map((direct, i) => (
                 <ul key={i} >
                   <li className="list-flex">
-                    <img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/Direct/" + direct.photo)} style={{ width: "70px", height: "70px" }} />
+                    <LazyLoadImage src={PF + "Direct/" + direct.photo}
+                      className="object-cover w-24 rounded-full sm:mx-4"
+                      width={10} height={10}
+                      alt="Image Alt"
+                    />
+                    {/*<img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/Direct/" + direct.photo)} style={{ width: "70px", height: "70px" }} />*/}
                     <div className="details">
                       <span className="name">{direct.name}, {direct.nickname}</span><br />
                       <span className="member">
                         {direct.TOT !== "" ? <span><b>TOT:</b> {direct.TOT} &nbsp;&nbsp; </span> : ""}
                         {direct.COT !== "" ? <span><b>COT:</b> {direct.COT} <br /></span> : ""}
-                        <b>MDRT:</b> {direct.MDRT} 
+                        <b>MDRT:</b> {direct.MDRT}
                       </span>
                     </div>
                   </li>
@@ -107,13 +118,18 @@ export default function Award() {
               {nl.map((nl, i) => (
                 <ul key={i} >
                   <li className="list-flex">
-                    <img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/NL/" + nl.photo)} style={{ width: "70px", height: "70px" }} />
+                    <LazyLoadImage src={PF + "NL/" + nl.photo}
+                      className="object-cover w-24 rounded-full sm:mx-4"
+                      width={10} height={10}
+                      alt="Image Alt"
+                    />
+                    {/*<img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/NL/" + nl.photo)} style={{ width: "70px", height: "70px" }} />*/}
                     <div className="details">
                       <span className="name">{nl.name}, {nl.nickname}</span><br />
                       <span className="member">
                         {nl.TOT !== "" ? <span><b>TOT:</b> {nl.TOT} &nbsp;&nbsp;</span> : ""}
-                        {nl.COT !== "" ? <span><b>COT:</b> {nl.COT} <br /></span>  : ""}
-                        <b>MDRT:</b> {nl.MDRT} 
+                        {nl.COT !== "" ? <span><b>COT:</b> {nl.COT} <br /></span> : ""}
+                        <b>MDRT:</b> {nl.MDRT}
                       </span>
                     </div>
                   </li>

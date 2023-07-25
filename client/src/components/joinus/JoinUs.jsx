@@ -8,17 +8,19 @@ export default function News() {
                 <div className="row">
                     <div className="col-xs-6 col-md-6">
                         <div className="bannerContent1">
-                            <h3 className="bannerTitle"><b>加入我們</b></h3>
+                            <h3 className="bannerTitle">加入我們</h3>
                             <div className="button">
-                                <Link to="/contact"><button className="button-5" role="button">加入我們</button></Link>
+                                <a href="mailto:nova.recuitmentpower@gmail.com?subject=Request to join Nova Team&body=I would like to join the Nova Team." className="button-5 link">
+                                    加入我們
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="col-xs-6 col-md-6">
                         <div className="bannerContent2">
-                            <h3 className="bannerTitle"><b>聯絡及查詢</b></h3>
+                            <h3 className="bannerTitle">聯絡及查詢 </h3>
                             <div className="button">
-                                <Link to="/contact"><button className="button-5" role="button">聯絡我們</button></Link>
+                                <Link to="/contact" className="button-5">聯絡我們</Link>
                             </div>
                         </div>
                     </div>
