@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 .album .album-title {
     position: relative;
     width: 100%;
@@ -16,10 +18,6 @@
     filter: brightness(1.15);
 }
 
-.album .album-title.bg-dark-overlay:before {
-    background-color: rgba(0, 0, 0, 0.36);
-}
-
 .album .album-title__holder {
     max-width: 878px;
     margin-left: auto;
@@ -29,18 +27,16 @@
 
 .album .album-title__title {
     line-height: 1.2;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     color: #1C3D88;
+    text-align: center;
+    padding-top: 25%;
 }
 
 .album .album-title__subtitle {
-    font-size: 18px;
     color: #1C3D88;
-    margin-bottom: 0;
-}
+    text-align: center;
 
-.album .album-title--tall {
-    padding: 300px 0;
 }
 
 @media only screen and (max-width: 991px) {
@@ -60,20 +56,6 @@
     scroll-behavior: smooth;
 }
 
-.album .post-link {
-    background-color: goldenrod;
-    text-decoration: none;
-    color: white;
-    border-radius: .25rem;
-    text-align: center;
-    display: inline-block;
-    transition: all .3s;
-}
-
-.album a:hover {
-    opacity: .6;
-}
-
 /* album-list styles */
 .album .album-list {
     padding: 2rem 4rem;
@@ -83,10 +65,18 @@
     text-decoration: none;
 }
 
+.album .album-list a:hover {
+    opacity: .6;
+}
+
+.album .album-list a:focus {
+    outline: none;
+}
+
 .album .album-list>ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     padding-inline-start: 0;
     list-style-type: none;
 }
@@ -97,65 +87,20 @@
     margin-bottom: 1rem;
 }
 
-.album .album-list>ul>li>figure {
-    max-height: 220px;
-    overflow: hidden;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-    position: relative;
-}
-
-.album .album-list>ul>li>figure>img {
+.album .albumImg {
     width: 100%;
-}
-
-.album .album-list>ul>li>figure>figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .7);
-    width: 100%;
-}
-
-.album .album-list>ul>li>figure>figcaption>h3 {
-    color: white;
-    padding: .75rem;
-    font-size: 1.25rem;
-}
-
-.album .album-list>ul>li>p {
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: 0rem .75rem;
-    color: #666666;
-}
-
-.album .album-list>ul>li>a {
-    padding: .5rem 1rem;
-    margin: .5rem;
-}
-
-
-.album .postImg {
-    width: 100%;
-    height: 280px;
+    height: 250px;
     object-fit: cover;
     border-radius: 7px;
 }
 
-.album .postInfo {
+.album .albumInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.album .postCat {
-    font-family: "Varela Round", sans-serif;
-    font-size: 11px;
-    color: #be9656;
-    line-height: 20px;
-    margin-top: 15px;
-    margin-right: 10px;
-    cursor: pointer;
+    width: 90%;
+    text-align: center;
+    margin: 6px auto;
 }
 
 .album .albumTitle {
@@ -166,40 +111,11 @@
     cursor: pointer;
 }
 
-.album .postDate {
-    font-family: "Lora", serif;
-    font-style: italic;
-    font-size: 13px;
-    color: #999;
-    margin-top: 15px;
-    margin-left: 0.75rem;
-}
-
-.album .postDesc {
-    font-family: "Varela Round", sans-serif;
-    font-size: 14px;
-    color: #444;
-    line-height: 24px;
-    margin-top: 15px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-}
-
-.album .postDesc::first-letter {
-    font-size: 22px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-
 @media (max-width: 400px) {
     .album .album-list>ul {
         display: block;
     }
 }
-
 
 /*dialog*/
 .dialog {
@@ -266,7 +182,7 @@
 
 .dialog .albumInput:focus {
     outline: none;
-  }
+}
 
 .dialog .modal-footer {
     padding: 10px;
@@ -302,4 +218,188 @@
     to {
         opacity: 1;
     }
+}
+
+
+/*carousel*/
+
+.album .gallery-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-color: rgba(0, 0, 0, .25);
+    margin-top: 75px;
+}
+
+.album .button-prev,
+.album .button-next {
+    position: absolute;
+    font-family: "Material Icons";
+    font-size: 4rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.album .button-prev {
+    left: 3%;
+    z-index: 2;
+}
+
+.album .button-next {
+    right: 3%;
+    z-index: 2;
+}
+
+.album .button-prev:hover,
+.album .button-next:hover {
+    color: white;
+}
+
+.album .gallery-track {
+    aspect-ratio: 100/35;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.album .slide-image {
+    aspect-ratio: 100/35;
+    position: absolute;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/15007786/pexels-photo-15007786.jpeg);
+    width: 100%;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(1.15);
+}
+
+.album .slide-image .row {
+    width:80%;
+    margin:auto;
+}
+
+.album .gallery-footer {
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.album .bubble-outer {
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.album .bubble-inner {
+    border: 5px solid transparent;
+    border-radius: 4px;
+}
+
+@keyframes slide-right-in {
+    from {
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    to {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-left-in {
+    from {
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-right-out {
+    from {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    to {
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slide-left-out {
+    from {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.rightIn {
+    -webkit-animation: slide-right-in .5s 1 forwards;
+    -moz-animation: slide-right-in .5s 1 forwards;
+    -ms-animation: slide-right-in .5s 1 forwards;
+    -o-animation: slide-right-in .5s 1 forwards;
+    animation: slide-right-in .5s 1 forwards;
+}
+
+.leftIn {
+    -webkit-animation: slide-right-in .5s 1 forwards;
+    -moz-animation: slide-right-in .5s 1 forwards;
+    -ms-animation: slide-right-in .5s 1 forwards;
+    -o-animation: slide-right-in .5s 1 forwards;
+    animation: slide-left-in .5s 1 forwards;
+}
+
+.rightOut {
+    -webkit-animation: slide-right-in .5s 1 forwards;
+    -moz-animation: slide-right-in .5s 1 forwards;
+    -ms-animation: slide-right-in .5s 1 forwards;
+    -o-animation: slide-right-in .5s 1 forwards;
+    animation: slide-right-out .5s 1 forwards;
+}
+
+.leftOut {
+    -webkit-animation: slide-right-in .5s 1 forwards;
+    -moz-animation: slide-right-in .5s 1 forwards;
+    -ms-animation: slide-right-in .5s 1 forwards;
+    -o-animation: slide-right-in .5s 1 forwards;
+    animation: slide-left-out .5s 1 forwards;
 }

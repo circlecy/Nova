@@ -1,6 +1,6 @@
 .site-footer {
     background-color: #26272b;
-    padding: 45px 0 20px;
+    padding: 20px 0;
     font-size: 15px;
     line-height: 24px;
     color: #737373;
@@ -8,7 +8,8 @@
 
 .site-footer hr {
     border-top-color: #bbb;
-    opacity: 0.5
+    opacity: 0.5;
+    margin: 0.6rem;
 }
 
 .site-footer hr.small {
@@ -18,23 +19,11 @@
 .site-footer h6 {
     color: #ffffff;
     font-size: 16px;
-    height: 70px;
+    height: 50px;
     text-transform: uppercase;
     margin-top: 5px;
     letter-spacing: 2px;
-    margin: 10px 0;
-    padding: 15px 0;
-}
-
-.site-footer a {
-    color: #737373;
-}
-
-.site-footer a:hover {
-    color: #ffffff;
-    text-decoration: none;
-    transition: all .2s ease;
-    -webkit-transition: all .2s ease;
+    padding-top: 15px;
 }
 
 .site-footer .logoImg {
@@ -45,24 +34,29 @@
     object-fit: cover;
 }
 
-.footer-links {
+.site-footer .footer-links {
     padding-left: 0;
     list-style: none
 }
 
-.footer-links li {
+.site-footer .footer-links li {
     display: block;
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
-.footer-links a {
+.site-footer a {
     color: #737373
 }
 
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
+.site-footer .footer-links a:hover {
     color: #ffffff;
+    text-decoration: none;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.site-footer .footer-links a:active,
+.site-footer .footer-links a:focus{
     text-decoration: none;
 }
 
@@ -112,7 +106,6 @@
 
 .social-icons li {
     display: inline-block;
-    margin-bottom: 4px
 }
 
 .social-icons li.title {
