@@ -1,3 +1,4 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./award.css";
 import dc from "./DC.json";
 import direct from "./Direct.json";
