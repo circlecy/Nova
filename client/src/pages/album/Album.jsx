@@ -154,7 +154,7 @@ export default function Album() {
                 </div>
                 <section className="album-list">
                     <ul>
-                        {album.slice().reverse().map((album, i) => (
+                        {album.reverse().map((album, i) => (
                             <li key={i}>
                                 {album.album && <img className="albumImg" src={!album.photos.length ? require('../../assets/img/Nova-Banner.jpg') : PF + album.album + "/" + album.photos[0].name} alt="" />}
                                 <div className="albumInfo link">
