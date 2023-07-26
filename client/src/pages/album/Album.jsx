@@ -99,7 +99,7 @@ export default function Album() {
                                             <h1 className="album-title__subtitle">活動片段</h1>
                                         </div>
                                         <div className="col-sm-6">
-                                            <video width="100%" height="350" src={PF + "/" + video} type="video/mp4" controls />
+                                            <video className="albumVideo" src={PF + "/" + video} type="video/mp4" controls />
                                         </div>
                                     </div>
                                 </div>

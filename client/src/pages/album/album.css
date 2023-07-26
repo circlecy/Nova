@@ -281,6 +281,12 @@
     margin:auto;
 }
 
+.album .albumVideo {
+    width: 100%;
+    height: 25vw;
+    margin: 10% 0;
+}
+
 .album .gallery-footer {
     position: absolute;
     bottom: 5%;
@@ -402,4 +408,69 @@
     -ms-animation: slide-right-in .5s 1 forwards;
     -o-animation: slide-right-in .5s 1 forwards;
     animation: slide-left-out .5s 1 forwards;
+}
+
+@media (max-width: 650px) {
+    .album .album-title__title {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .album .gallery-track{
+        aspect-ratio: 1/1;
+    }
+
+    .album .slide-image{
+        aspect-ratio: 1/1;
+    }
+
+    .album .album-title__title{
+        padding-top: 13%;
+    }
+
+    .album .albumVideo {
+        height: 40vw;
+        margin-top: 0.7rem; 
+    }
+
+    .album .gallery-footer{
+        bottom: 3%;
+    }
+
+    .album .button-prev{
+        left:0;
+    }
+
+    .album .button-next{
+        right:0;
+    }
+}
+
+@media (max-width: 405px) {
+    .album .gallery-track{
+        aspect-ratio: 10/13;
+    }
+
+    .album .slide-image{
+        aspect-ratio: 10/13;
+    }
+
+    .album .albumVideo {
+        height: 35vw;
+    }
+
+    .album .album-list{
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .album .album-title__title {
+        font-size: 30px;
+    }
+
+    .album .album-title__subtitle{
+        font-size: 30px;
+    }
 }
