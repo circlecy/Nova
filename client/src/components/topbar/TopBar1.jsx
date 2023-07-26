@@ -24,7 +24,7 @@ export default function TopBar1() {
       <nav className="navbar">
         <div className="container">
           <div className="logo">
-            <div><img src={logoimg} alt="" className="logoImg" /></div>
+            <Link to="/" ><img src={logoimg} alt="" className="logoImg" /></Link>
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
             <Hamburger />
