@@ -72,7 +72,7 @@ export default function Award() {
                     />
                     {/*<img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/DC/" + dc.photo)} style={{ width: "70px", height: "70px" }} />*/}
                     <div className="details">
-                      <span className="name">{dc.name}, {dc.nickname}</span><br />
+                      <span className="name">{dc.name}{dc.nickname === "" ? "" : ", " + dc.nickname}</span><br />
                       <span className="member">
                         {dc.TOT !== "" ? <span><b>TOT:</b> {dc.TOT} &nbsp;&nbsp; </span> : ""}
                         {dc.COT !== "" ? <span><b>COT:</b> {dc.COT} <br /></span> : ""}
@@ -99,7 +99,7 @@ export default function Award() {
                     />
                     {/*<img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/Direct/" + direct.photo)} style={{ width: "70px", height: "70px" }} />*/}
                     <div className="details">
-                      <span className="name">{direct.name}, {direct.nickname}</span><br />
+                      <span className="name">{direct.name}{direct.nickname === "" ? "" : ", " + direct.nickname}</span><br />
                       <span className="member">
                         {direct.TOT !== "" ? <span><b>TOT:</b> {direct.TOT} &nbsp;&nbsp; </span> : ""}
                         {direct.COT !== "" ? <span><b>COT:</b> {direct.COT} <br /></span> : ""}
@@ -126,7 +126,7 @@ export default function Award() {
                     />
                     {/*<img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" loading="lazy" src={require("../../assets/award/NL/" + nl.photo)} style={{ width: "70px", height: "70px" }} />*/}
                     <div className="details">
-                      <span className="name">{nl.name}, {nl.nickname}</span><br />
+                      <span className="name">{nl.name}{nl.nickname === "" ? "" : ", " + nl.nickname}</span><br />
                       <span className="member">
                         {nl.TOT !== "" ? <span><b>TOT:</b> {nl.TOT} &nbsp;&nbsp;</span> : ""}
                         {nl.COT !== "" ? <span><b>COT:</b> {nl.COT} <br /></span> : ""}

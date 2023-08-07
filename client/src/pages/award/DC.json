@@ -22,6 +22,46 @@
     {
         "agency":"DC",
         "district": "AF",
+        "name":"Cheung Cheuk Hei",
+        "nickname":"Darren",
+        "photo": "Cheung Cheuk Hei.jpg",
+        "MDRT": "2017 - 2021 ",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Fong Pak Keung",
+        "nickname":"Tony",
+        "photo": "Fong Pak Keung.jpg",
+        "MDRT": "2018 - 2022 ",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Chou Tsz Kit",
+        "nickname":"Franco",
+        "photo": "Chou Tsz Kit.jpg",
+        "MDRT": "2019 - 2022 ",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Fong Ho Yin",
+        "nickname":"Ken",
+        "photo": "Fong Ho Yin.jpg",
+        "MDRT": "2019 & 2021 - 2022 ",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
         "name":"Choi Chi Chun",
         "nickname":"Neo",
         "photo": "Choi Chi Chun.jpg",
@@ -32,20 +72,40 @@
     {
         "agency":"DC",
         "district": "AF",
-        "name":"Chan Siu Kee",
-        "nickname":"Derick",
-        "photo": "Chan Siu Kee.jpg",
-        "MDRT": "2020 - 2023",
+        "name":"Choi Ka Wai",
+        "nickname":"Gary",
+        "photo": "Choi Ka Wai.jpg",
+        "MDRT": "2020 - 2022",
         "COT": "",
         "TOT": ""
     },
     {
         "agency":"DC",
         "district": "AF",
-        "name":"Chan Siu Kee",
-        "nickname":"Derick",
-        "photo": "Chan Siu Kee.jpg",
-        "MDRT": "2020 - 2023",
+        "name":"Ko Ching",
+        "nickname":"Anson",
+        "photo": "Ko Ching.jpg",
+        "MDRT": "2020 - 2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Tang Kai Hong",
+        "nickname":"Kyle",
+        "photo": "Tang Kai Hong.jpg",
+        "MDRT": "2020 - 2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "HD",
+        "name":"Lok Hon Bong",
+        "nickname":"Ivan",
+        "photo": "Lok Hon Bong.jpg",
+        "MDRT": "2020 - 2022",
         "COT": "",
         "TOT": ""
     },
@@ -82,6 +142,26 @@
     {
         "agency":"DC",
         "district": "AF",
+        "name":"Wu Ching Luk",
+        "nickname":"Dan",
+        "photo": "Wu Ching Luk.jpg",
+        "MDRT": "2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "HD",
+        "name":"Chan Wai Ngok",
+        "nickname":"Sam",
+        "photo": "Chan Wai Ngok.jpg",
+        "MDRT": "2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
         "name":"Ma Hoi Tung",
         "nickname":"Navia",
         "photo": "Ma Hoi Tung.jpg",
@@ -96,6 +176,76 @@
         "nickname":"Moses",
         "photo": "Mok Wai Ho.jpg",
         "MDRT": "2022 - 2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Lee Sin Kwan",
+        "nickname":"Alee",
+        "photo": "Lee Sin Kwan.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Chan Po Hin",
+        "nickname":"Michael",
+        "photo": "Chan Po Hin.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Tsoi Lok Yi",
+        "nickname":"Kuly",
+        "photo": "Tsoi Lok Yi.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Ma Man Tsit",
+        "nickname":"Elma",
+        "photo": "Ma Man Tsit.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "AF",
+        "name":"Huang Minyan",
+        "nickname":"Manny",
+        "photo": "Huang Minyan.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "HD",
+        "name":"Cho Cheuk Yin",
+        "nickname":"Jeffrey",
+        "photo": "Cho Cheuk Yin.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"DC",
+        "district": "HD",
+        "name":"Ng Ka Him",
+        "nickname":"Alex",
+        "photo": "Ng Ka Him.jpg",
+        "MDRT": "2022",
         "COT": "",
         "TOT": ""
     },
@@ -193,7 +343,7 @@
         "agency":"DC",
         "district": "AF",
         "name":"Lam Edon",
-        "nickname":"Edon",
+        "nickname":"",
         "photo": "Lam Edon.jpg",
         "MDRT": "2023",
         "COT": "",

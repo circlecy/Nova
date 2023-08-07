@@ -25,11 +25,12 @@ export default function Home() {
     <>
       <Header />
       <About />
-      <News posts={posts} />
+      <News />
       <Award />
+      {/*
       <Photo />
       <JoinUs />
-      {/*<div className="home">
+      <div className="home">
         <Posts posts={posts} />
         {/*<Sidebar />
       </div>*/}

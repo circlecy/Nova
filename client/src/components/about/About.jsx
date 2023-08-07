@@ -50,8 +50,8 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="row content">
-                    <div className="col-xs-3 col-md-5">
+                {/*<div className="row content">
+                    <div className="col-xs-4 col-md-6">
                         <div className="photoGroup">
                             <img
                                 className="awardImg1"
@@ -60,7 +60,7 @@ export default function About() {
                             />
                         </div>
                     </div>
-                    <div className="col-xs-9 col-md-7">
+                    <div className="col-xs-8 col-md-6">
                         <div className="title-box">
                             <div className="subtitle2">
                                 <img alt="" src={require('../../assets/img/title1.svg').default} />
@@ -82,7 +82,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>*/}
             </div>
         </div>
     );

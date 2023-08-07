@@ -5,7 +5,7 @@
         "name":"Chu Chao",
         "nickname":"Jason",
         "photo": "Chu Chao.jpg",
-        "MDRT": "2015-2018 & 2023",
+        "MDRT": "2015 - 2018 & 2023",
         "COT": "2019",
         "TOT": ""
     },
@@ -15,8 +15,8 @@
         "name":"Ip Ka Man",
         "nickname":"Carmen",
         "photo": "Ip Ka Man.jpg",
-        "MDRT": "2016-2017 & 2023",
-        "COT": "2018-2022",
+        "MDRT": "2016 - 2017 & 2023",
+        "COT": "2018 - 2022",
         "TOT": ""
     },
     {
@@ -25,18 +25,8 @@
         "name":"Lee Tang Him",
         "nickname":"Wesker",
         "photo": "Lee Tang Him.jpg",
-        "MDRT": "2018-2021 & 2023",
+        "MDRT": "2018 - 2021 & 2023",
         "COT": "2022",
-        "TOT": ""
-    },
-    {
-        "agency":"Direct",
-        "district": "1k",
-        "name":"Chan Kwan Kuen",
-        "nickname":"Michael",
-        "photo": "Chan Kwan Kuen.jpg",
-        "MDRT": "2022-2023",
-        "COT": "",
         "TOT": ""
     },
     {
@@ -45,7 +35,7 @@
         "name":"Chan Shuk Ting",
         "nickname":"Koey",
         "photo": "Chan Shuk Ting.jpg",
-        "MDRT": "2018-2023",
+        "MDRT": "2018 - 2023",
         "COT": "",
         "TOT": ""
     },
@@ -55,17 +45,17 @@
         "name":"Chan Wai Sang",
         "nickname":"Andriy",
         "photo": "Chan Wai Sang.jpg",
-        "MDRT": "2019-2023",
+        "MDRT": "2019 - 2023",
         "COT": "",
         "TOT": ""
     },
     {
         "agency":"Direct",
         "district": "1k",
-        "name":"Cheung Tsz Ying",
-        "nickname":"Mosaic",
-        "photo": "Cheung Tsz Ying.jpg",
-        "MDRT": "2021-2023",
+        "name":"Tse Kin Po",
+        "nickname":"Kelvin",
+        "photo": "Tse Kin Po.jpg",
+        "MDRT": "2019 & 2021",
         "COT": "",
         "TOT": ""
     },
@@ -75,17 +65,37 @@
         "name":"Hui Kai Lam",
         "nickname":"Kathleen",
         "photo": "Hui Kai Lam.jpg",
-        "MDRT": "2020-2023",
+        "MDRT": "2020 - 2023",
         "COT": "",
         "TOT": ""
     },
     {
         "agency":"Direct",
         "district": "1k",
-        "name":"Hui Nga Lee",
-        "nickname":"Lily",
-        "photo": "Hui Nga Lee.jpg",
-        "MDRT": "2022-2023",
+        "name":"Lau Sze Long",
+        "nickname":"Cena",
+        "photo": "Lau Sze Long.jpg",
+        "MDRT": "2020 - 2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Cheung Ho Ching",
+        "nickname":"Sunny",
+        "photo": "Cheung Ho Ching.jpg",
+        "MDRT": "2020 - 2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Cheung Tsz Ying",
+        "nickname":"Mosaic",
+        "photo": "Cheung Tsz Ying.jpg",
+        "MDRT": "2021 - 2023",
         "COT": "",
         "TOT": ""
     },
@@ -95,27 +105,7 @@
         "name":"Ki Tsz Fung",
         "nickname":"Steffan",
         "photo": "Ki Tsz Fung.jpg",
-        "MDRT": "2021-2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"Direct",
-        "district": "1k",
-        "name":"Lee Chung Ting",
-        "nickname":"Jeff",
-        "photo": "Lee Chung Ting.jpg",
-        "MDRT": "2023",
-        "COT": "",
-        "TOT": ""
-    },
-    {
-        "agency":"Direct",
-        "district": "1k",
-        "name":"Siu Pui Tsz",
-        "nickname":"Summer",
-        "photo": "Siu Pui Tsz.jpg",
-        "MDRT": "2022-2023",
+        "MDRT": "2021 - 2023",
         "COT": "",
         "TOT": ""
     },
@@ -125,17 +115,77 @@
         "name":"Tsui King Kuen",
         "nickname":"Arthur",
         "photo": "Tsui King Kuen.jpg",
-        "MDRT": "2021-2023",
+        "MDRT": "2021 - 2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "AX",
+        "name":"Kwok Yick Man",
+        "nickname":"Mandy",
+        "photo": "Kwok Yick Man.jpg",
+        "MDRT": "2021 - 2023",
         "COT": "",
         "TOT": ""
     },
     {
         "agency":"Direct",
         "district": "1k",
-        "name":"Wu Man Hung",
-        "nickname":"Aiden",
-        "photo": "Wu Man Hung.jpg",
-        "MDRT": "2023",
+        "name":"Wong Ka Yi",
+        "nickname":"Koey",
+        "photo": "Wong Ka Yi.jpg",
+        "MDRT": "2021 - 2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Ng Kit Ying",
+        "nickname":"Florence",
+        "photo": "Ng Kit Ying.jpg",
+        "MDRT": "2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Li Yuet Ying",
+        "nickname":"Heidi",
+        "photo": "Li Yuet Ying.jpg",
+        "MDRT": "2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Chan Kwan Kuen",
+        "nickname":"Michael",
+        "photo": "Chan Kwan Kuen.jpg",
+        "MDRT": "2022 - 2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Hui Nga Lee",
+        "nickname":"Lily",
+        "photo": "Hui Nga Lee.jpg",
+        "MDRT": "2022 - 2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Siu Pui Tsz",
+        "nickname":"Summer",
+        "photo": "Siu Pui Tsz.jpg",
+        "MDRT": "2022 - 2023",
         "COT": "",
         "TOT": ""
     },
@@ -161,10 +211,60 @@
     },
     {
         "agency":"Direct",
-        "district": "AX",
-        "name":"Kiang Oi Mei",
-        "nickname":"Angel",
-        "photo": "Kiang Oi Mei.jpg",
+        "district": "1k",
+        "name":"Fan Wing Hei",
+        "nickname":"Terry",
+        "photo": "Fan Wing Hei.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Chui Tit Hang",
+        "nickname":"Joseph",
+        "photo": "Chui Tit Hang.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Tsang Chung Hei",
+        "nickname":"Michael",
+        "photo": "Tsang Chung Hei.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Tsoi Lai Man",
+        "nickname":"Charlotte",
+        "photo": "Tsoi Lai Man.jpg",
+        "MDRT": "2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Lee Chung Ting",
+        "nickname":"Jeff",
+        "photo": "Lee Chung Ting.jpg",
+        "MDRT": "2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "1k",
+        "name":"Wu Man Hung",
+        "nickname":"Aiden",
+        "photo": "Wu Man Hung.jpg",
         "MDRT": "2023",
         "COT": "",
         "TOT": ""
@@ -172,10 +272,10 @@
     {
         "agency":"Direct",
         "district": "AX",
-        "name":"Kwok Yick Man",
-        "nickname":"Mandy",
-        "photo": "Kwok Yick Man.jpg",
-        "MDRT": "2021-2023",
+        "name":"Kiang Oi Mei",
+        "nickname":"Angel",
+        "photo": "Kiang Oi Mei.jpg",
+        "MDRT": "2023",
         "COT": "",
         "TOT": ""
     },

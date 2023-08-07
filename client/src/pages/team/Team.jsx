@@ -48,7 +48,7 @@ export default function Team() {
                             <img alt="" className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300" src={require('../../assets/staff/Nic_icon.PNG')} />
 
                             <div className="mt-4 sm:mx-4 sm:mt-0">
-                                <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">Nic Lee 李建明</h1>
+                                <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white">Nic Li 李建明</h1>
 
                                 <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">Nova NL 行政業務總監</p>
                             </div>
