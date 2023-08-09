@@ -31,6 +31,16 @@
     },
     {
         "agency":"Direct",
+        "district": "AX",
+        "name":"Wu Hei Tung",
+        "nickname":"Ashley",
+        "photo": "Wu Hei Tung.jpg",
+        "MDRT": "2019 - 2021",
+        "COT": "2022",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
         "district": "1k",
         "name":"Chan Shuk Ting",
         "nickname":"Koey",
@@ -41,11 +51,51 @@
     },
     {
         "agency":"Direct",
+        "district": "AX",
+        "name":"Chan Fung Ling",
+        "nickname":"Fanny",
+        "photo": "Chan Fung Ling.jpg",
+        "MDRT": "2018 - 2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
         "district": "1k",
         "name":"Chan Wai Sang",
         "nickname":"Andriy",
         "photo": "Chan Wai Sang.jpg",
         "MDRT": "2019 - 2023",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "AX",
+        "name":"Wan Siu Hei",
+        "nickname":"Hayes",
+        "photo": "Wan Siu Hei.jpg",
+        "MDRT": "2019 - 2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "AX",
+        "name":"Tsang Yuen Ching",
+        "nickname":"Charmaine",
+        "photo": "Tsang Yuen Ching.jpg",
+        "MDRT": "2019 - 2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "AX",
+        "name":"Liu Tsun Lok",
+        "nickname":"Thomas",
+        "photo": "Liu Tsun Lok.jpg",
+        "MDRT": "2019 - 2021",
         "COT": "",
         "TOT": ""
     },
@@ -81,10 +131,40 @@
     },
     {
         "agency":"Direct",
+        "district": "AX",
+        "name":"Chan Yun Ting",
+        "nickname":"Louis",
+        "photo": "Chan Yun Ting.jpg",
+        "MDRT": "2020 - 2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "AX",
+        "name":"Ng Hei",
+        "nickname":"Heybe",
+        "photo": "Ng Hei.jpg",
+        "MDRT": "2020 - 2022",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
         "district": "1k",
         "name":"Cheung Ho Ching",
         "nickname":"Sunny",
         "photo": "Cheung Ho Ching.jpg",
+        "MDRT": "2020 - 2021",
+        "COT": "",
+        "TOT": ""
+    },
+    {
+        "agency":"Direct",
+        "district": "AX",
+        "name":"Chin Ki Hin",
+        "nickname":"Kevin",
+        "photo": "Chin Ki Hin.jpg",
         "MDRT": "2020 - 2021",
         "COT": "",
         "TOT": ""
