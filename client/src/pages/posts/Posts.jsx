@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import "./posts.css";
 
 export default function Posts() {
-    const PF = "http://45.80.181.65:5000/images/posts/";
+    const PF = "http://api.wearenovafamily.com/images/posts/";
     //const { user } = useContext(Context);
     const [posts, setPosts] = useState([]);
     const { search } = useLocation();

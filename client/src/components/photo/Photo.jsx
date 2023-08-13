@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./photo.css";
 
 export default function Photo() {
-    const PF = "http://45.80.181.65:5000/images/album/";
+    const PF = "http://api.wearenovafamily.com/images/album/";
     const [albums, setAlbums] = useState([]);
     const { search } = useLocation();
     const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });

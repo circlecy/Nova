@@ -8,7 +8,7 @@ export default function Single() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState({});
-  const PF = "http://45.80.181.65:5000/images/posts/";
+  const PF = "http://api.wearenovafamily.com/images/posts/";
   const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");

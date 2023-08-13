@@ -7,7 +7,7 @@ import "./gallery.css";
 export default function Gallery() {
   const { user } = useContext(Context);
   const location = useLocation();
-  const PF = "http://45.80.181.65:5000/images/album/";
+  const PF = "http://api.wearenovafamily.com/images/album/";
   const [Id, setId] = useState("");
   const album = decodeURI(location.pathname.split("/")[2]);
   const [photosList, setPhotoList] = useState([]);

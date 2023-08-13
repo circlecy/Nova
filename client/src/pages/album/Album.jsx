@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import "./album.css";
 
 export default function Album() {
-    const PF = "http://45.80.181.65:5000/images/album/";
+    const PF = "http://api.wearenovafamily.com/images/album/";
     const { user } = useContext(Context);
     const [album, setAlbum] = useState([]);
     const [folder, setFolder] = useState("");
