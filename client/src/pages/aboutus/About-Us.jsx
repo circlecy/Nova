@@ -15,7 +15,8 @@ export default function AboutUs() {
       <div className="container">
         <div className="contentTitle">
           <span>NOVA </span><br />
-          <span>Core Value - 核心價值</span><br />
+          <span>Core Value</span><br/>
+          <span>核心價值</span>
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ms-12">

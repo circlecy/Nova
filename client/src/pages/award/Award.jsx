@@ -76,7 +76,7 @@ export default function Award() {
                       <span className="member">
                         {dc.TOT !== "" ? <span><b>TOT:</b> {dc.TOT} &nbsp;&nbsp; </span> : ""}
                         {dc.COT !== "" ? <span><b>COT:</b> {dc.COT} <br /></span> : ""}
-                        <b>MDRT:</b> {dc.MDRT} <br />
+                        {dc.MDRT !== "" ? <div><b>MDRT:</b> {dc.MDRT} </div> : ""}
                       </span>
                     </div>
                   </li>
@@ -103,7 +103,7 @@ export default function Award() {
                       <span className="member">
                         {direct.TOT !== "" ? <span><b>TOT:</b> {direct.TOT} &nbsp;&nbsp; </span> : ""}
                         {direct.COT !== "" ? <span><b>COT:</b> {direct.COT} <br /></span> : ""}
-                        <b>MDRT:</b> {direct.MDRT}
+                        {direct.MDRT !== "" ? <div><b>MDRT:</b> {direct.MDRT} </div> : ""}
                       </span>
                     </div>
                   </li>
@@ -130,7 +130,7 @@ export default function Award() {
                       <span className="member">
                         {nl.TOT !== "" ? <span><b>TOT:</b> {nl.TOT} &nbsp;&nbsp;</span> : ""}
                         {nl.COT !== "" ? <span><b>COT:</b> {nl.COT} <br /></span> : ""}
-                        <b>MDRT:</b> {nl.MDRT}
+                        {nl.MDRT !== "" ? <div><b>MDRT:</b> {nl.MDRT} </div> : ""}
                       </span>
                     </div>
                   </li>

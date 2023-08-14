@@ -154,6 +154,16 @@
     }
 }
 
+.news .box-margin{
+    margin:10px 0;
+}
+
+.news .postborder {
+    border: 1px solid #c6c6c6;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+
 .news .postImg {
     width: 100%;
     max-height: 250px;
