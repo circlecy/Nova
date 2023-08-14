@@ -74,8 +74,8 @@ export default function Award() {
                     <div className="details">
                       <span className="name">{dc.name}{dc.nickname === "" ? "" : ", " + dc.nickname}</span><br />
                       <span className="member">
-                        {dc.TOT !== "" ? <span><b>TOT:</b> {dc.TOT} &nbsp;&nbsp; </span> : ""}
-                        {dc.COT !== "" ? <span><b>COT:</b> {dc.COT} <br /></span> : ""}
+                        {dc.TOT !== "" ? <div><b>TOT:</b> {dc.TOT} <br /></div> : ""}
+                        {dc.COT !== "" ? <div><b>COT:</b> {dc.COT} <br /></div> : ""}
                         {dc.MDRT !== "" ? <div><b>MDRT:</b> {dc.MDRT} </div> : ""}
                       </span>
                     </div>
@@ -101,8 +101,8 @@ export default function Award() {
                     <div className="details">
                       <span className="name">{direct.name}{direct.nickname === "" ? "" : ", " + direct.nickname}</span><br />
                       <span className="member">
-                        {direct.TOT !== "" ? <span><b>TOT:</b> {direct.TOT} &nbsp;&nbsp; </span> : ""}
-                        {direct.COT !== "" ? <span><b>COT:</b> {direct.COT} <br /></span> : ""}
+                        {direct.TOT !== "" ? <div><b>TOT:</b> {direct.TOT} </div> : ""}
+                        {direct.COT !== "" ? <div><b>COT:</b> {direct.COT} </div> : ""}
                         {direct.MDRT !== "" ? <div><b>MDRT:</b> {direct.MDRT} </div> : ""}
                       </span>
                     </div>
@@ -128,8 +128,8 @@ export default function Award() {
                     <div className="details">
                       <span className="name">{nl.name}{nl.nickname === "" ? "" : ", " + nl.nickname}</span><br />
                       <span className="member">
-                        {nl.TOT !== "" ? <span><b>TOT:</b> {nl.TOT} &nbsp;&nbsp;</span> : ""}
-                        {nl.COT !== "" ? <span><b>COT:</b> {nl.COT} <br /></span> : ""}
+                        {nl.TOT !== "" ? <div><b>TOT:</b> {nl.TOT} </div> : ""}
+                        {nl.COT !== "" ? <div><b>COT:</b> {nl.COT} </div> : ""}
                         {nl.MDRT !== "" ? <div><b>MDRT:</b> {nl.MDRT} </div> : ""}
                       </span>
                     </div>
