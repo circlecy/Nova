@@ -50,7 +50,7 @@ app.use("/api/categories", categoryRoute);
 app.use("/api/albums", albumRoute);
 
 app.get('*', (req, res) => {
-	res.sendFile('build/index.html', {root: path.join(__dirname, '../')});
+	res.sendFile('build/index.html', {root: path.join(__dirname, './')});
 });
 
 app.listen("5000", () => {
