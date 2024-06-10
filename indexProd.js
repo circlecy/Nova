@@ -62,6 +62,6 @@ app.get('*', (req, res) => {
 	res.sendFile('./client/build/index.html', {root: path.join(__dirname)});
 });
 
-app.listen("5000", () => {
+app.listen("80", () => {
     console.log("Backend is running.");
 });
