@@ -10,6 +10,14 @@ const albumRoute = require("./routes/albums");
 const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
+const https = require(`https`);
+
+const options = {
+	key: fs.readFileSync('/etc/letsencrypt/live/thevininfo.com/privkey.pem'),
+	cert: fs.readFileSync('/etc/letsencrypt/live/thevininfo.com/fullchain.pem')
+};
+
+// const server = https.createServer(options ,app);
 
 dotenv.config();
 app.use(express.json());
@@ -62,6 +70,17 @@ app.get('*', (req, res) => {
 	res.sendFile('./client/build/index.html', {root: path.join(__dirname)});
 });
 
-app.listen("80", () => {
-    console.log("Backend is running.");
+
+
+const server = https.createServer(options ,app);
+
+const port = 443
+
+server.listen(port, () => {
+	console.log(`Listening on ${port}.`)
 });
+
+
+// app.listen("80", () => {
+//     console.log("Backend is running.");
+// });
