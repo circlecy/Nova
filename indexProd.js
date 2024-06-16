@@ -11,6 +11,7 @@ const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
 const https = require(`https`);
+const fs = require("fs");
 
 const options = {
 	key: fs.readFileSync('/etc/letsencrypt/live/thevininfo.com/privkey.pem'),
