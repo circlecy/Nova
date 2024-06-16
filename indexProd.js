@@ -14,8 +14,8 @@ const https = require(`https`);
 const fs = require("fs");
 
 const options = {
-	key: fs.readFileSync('/etc/letsencrypt/live/thevininfo.com/privkey.pem'),
-	cert: fs.readFileSync('/etc/letsencrypt/live/thevininfo.com/fullchain.pem')
+	key: fs.readFileSync('/etc/letsencrypt/live/winearypro-uat.site/privkey.pem'),
+	cert: fs.readFileSync('/etc/letsencrypt/live/winearypro-uat.site/fullchain.pem')
 };
 
 // const server = https.createServer(options ,app);
