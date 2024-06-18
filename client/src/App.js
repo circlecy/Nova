@@ -16,7 +16,7 @@ import Footer from "./components/footer/Footer";
 // import Gallery from "./pages/gallery/Gallery";
 // import Team from "./pages/team/Team";
 // import ContactUs from "./pages/contactus/Contact-Us";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
@@ -44,12 +44,12 @@ function App() {
   const { user } = useContext(Context);
 
   return (
-    <Router>
+    <BrowserRouter basename="/">
       <ScrollToTop />
       <TopBar1 />
       <Routes>
         <Route
-          path="/"
+          path=""
           element={
             <Suspense fallback={<Loading />}>
               <Home />
@@ -57,7 +57,7 @@ function App() {
           }
         />
         <Route
-          path="/about"
+          path="about"
           element={
             <Suspense fallback={<Loading />}>
               <AboutUs />
@@ -65,7 +65,7 @@ function App() {
           }
         />
         <Route
-          path="/award"
+          path="award"
           element={
             <Suspense fallback={<Loading />}>
               <Award />
@@ -73,7 +73,7 @@ function App() {
           }
         />
         <Route
-          path="/posts"
+          path="posts"
           element={
             <Suspense fallback={<Loading />}>
               <Posts />
@@ -81,7 +81,7 @@ function App() {
           }
         />
         <Route
-          path="/album"
+          path="album"
           element={
             <Suspense fallback={<Loading />}>
               <Album />
@@ -89,7 +89,7 @@ function App() {
           }
         />
         <Route
-          path="/team"
+          path="team"
           element={
             <Suspense fallback={<Loading />}>
               <Team />
@@ -97,7 +97,7 @@ function App() {
           }
         />
         <Route
-          path="/contact"
+          path="contact"
           element={
             <Suspense fallback={<Loading />}>
               <ContactUs />
@@ -105,7 +105,7 @@ function App() {
           }
         />
         <Route
-          path="/register"
+          path="register"
           element={
             user ? (
               <Suspense fallback={<Loading />}>
@@ -119,7 +119,7 @@ function App() {
           }
         />
         <Route
-          path="/login"
+          path="login"
           element={
             user ? (
               <Suspense fallback={<Loading />}>
@@ -133,7 +133,7 @@ function App() {
           }
         />
         <Route
-          path="/write"
+          path="write"
           element={
             user ? (
               <Suspense fallback={<Loading />}>
@@ -147,7 +147,7 @@ function App() {
           }
         />
         <Route
-          path="/settings"
+          path="settings"
           element={
             user ? (
               <Suspense fallback={<Loading />}>
@@ -161,7 +161,7 @@ function App() {
           }
         />
         <Route
-          path="/post/:postId"
+          path="post/:postId"
           element={
             <Suspense fallback={<Loading />}>
               <Single />
@@ -169,7 +169,7 @@ function App() {
           }
         />
         <Route
-          path="/album/:albumName"
+          path="album/:albumName"
           element={
             <Suspense fallback={<Loading />}>
               <Gallery />
@@ -178,8 +178,10 @@ function App() {
         />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
+
+
 
 export default App;

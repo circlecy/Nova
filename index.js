@@ -49,6 +49,19 @@ app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 app.use("/api/albums", albumRoute);
 
+
+app.use('/static', express.static(path.join(__dirname,  'client', 'build', 'static')));
+
+
+// app.get('*', (req, res) => {
+//     console.log('called');
+// 	res.sendFile('./build/index.html', {root: path.join(__dirname)});
+// });
+app.get('*', (req, res) => {
+	res.sendFile('./client/build/index.html', {root: path.join(__dirname)});
+});
+
+
 app.listen("5000", () => {
     console.log("Backend is running.");
 });
