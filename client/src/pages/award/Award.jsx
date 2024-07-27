@@ -5,7 +5,7 @@ import direct from "./Direct.json";
 import nl from "./NL.json";
 
 export default function Award() {
-  const PF = "http://api.wearenovafamily.com/images/staff/";
+  const PF = "http://wearenovafamily.com/images/staff/";
   const openAgency = (agency, name) => {
     var elems = document.querySelectorAll(".active")[0];
     if (elems) {
