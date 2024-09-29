@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./news.css";
 
 export default function News() {
-    const PF = "http://wearenovafamily.com/images/posts/";
+    const PF = "https://wearenovafamily.com/images/posts/";
     const [posts, setPosts] = useState([]);
     const { search } = useLocation();
     const axiosInstance = axios.create({ baseURL: process.env.REACT_APP_API_URL, });

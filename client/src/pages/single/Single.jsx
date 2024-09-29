@@ -8,7 +8,7 @@ export default function Single() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState({});
-  const PF = "http://wearenovafamily.com/images/posts/";
+  const PF = "https://wearenovafamily.com/images/posts/";
   const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
